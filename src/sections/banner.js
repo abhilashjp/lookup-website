@@ -12,10 +12,10 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.content}>
             <Heading sx={styles.title}>
-              VAT validation APIs for your invoice operations
+              VAT validation APIs
             </Heading>
             <Text as="p" sx={styles.text}>
-              Use our gloabl VAT validation API for validating your business customers. 
+              Use our gloabl VAT validation API for automating your invoice operations. Standardised APIs, No code solutions, easy setup.   
             </Text>
             <Button variant="primary" sx={styles.button}>
               Explore Now
