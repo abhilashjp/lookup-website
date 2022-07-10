@@ -12,7 +12,7 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.content}>
             <Heading sx={styles.title}>
-              Professional Communication For Your Team
+              VAT validation APIs for your day to day invoice operations
             </Heading>
             <Text as="p" sx={styles.text}>
               Get your blood tests delivered at let home collect sample from the
