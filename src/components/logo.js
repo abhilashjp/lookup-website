@@ -1,8 +1,8 @@
 /** @jsx jsx */
 import { jsx, Image } from 'theme-ui';
 import { Link } from 'components/link';
-import logo from 'assets/images/Lookup-logo.png';
-import logoWhite from 'assets/images/Lookup-logo-white.png';
+import logo from 'assets/images/lookup-logo.png';
+import logoWhite from 'assets/images/lookup-logo-white.png';
 
 export default function Logo({ isWhite }) {
   return (
