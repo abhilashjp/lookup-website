@@ -3,15 +3,15 @@ async rewrites() {
     return [
       {
         source: "/docs",
-        destination: "https://lookup-guides.netlify.app/",
+        destination: "https://lookup-guides.netlify.app/blog",
       },
       {
         source: "/docs/(.*?)([.]\\w{2,5})(\\?[^/]+)?",
-        destination: "https://lookup-guides.netlify.app/$1$2$3",
+        destination: "https://lookup-guides.netlify.app/blog/$1$2$3",
       },
       {
         source: "/docs/([\\S\\s]+)",
-        destination: "https://lookup-guides.netlify.app//$1/",
+        destination: "https://lookup-guides.netlify.app/blog/$1/",
       },
     ];
   },
@@ -21,7 +21,7 @@ async rewrites() {
         source: "/docs/:path*",
         headers: [
           { key: "X-Forwarded-Proto", value: "https" },
-          { key: "X-Forwarded-Host", value: www.lookuptax.com/ },
+          { key: "X-Forwarded-Host", value: lookuptax.com },
           // { key: "X-Forwarded-For", value: "" },
         ],
       },
