@@ -21,7 +21,7 @@ async rewrites() {
         source: "/docs/:path*",
         headers: [
           { key: "X-Forwarded-Proto", value: "https" },
-          { key: "X-Forwarded-Host", value: lookuptax.com },
+          { key: "X-Forwarded-Host", value: "www.lookuptax.com" },
           // { key: "X-Forwarded-For", value: "" },
         ],
       },
