@@ -4,7 +4,7 @@
   "rewrites": [
     {
       "source": "/docs",
-      "destination": "https://lookup-guides.netlify.app/"
+      "destination": "/"
     },
     
   ]
