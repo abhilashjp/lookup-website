@@ -11,10 +11,7 @@
   }, 
   
   "rewrites": [
-    {
-      "source": "/docs/",
-      "destination": "https://plausible.io/js/script.js"
-    },
+    { "source": "/docs/:match*", "destination": "https://example.com/:match*" }
   
   ]
   
