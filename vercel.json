@@ -13,7 +13,7 @@
   "rewrites": [
     { "source": "/blog/:match*", "destination": "https://lookup-guides.netlify.app/blog/:match*" },
     { "source": "/docs/:match*", "destination": "https://lookup-guides.netlify.app/docs/:match*" },
-    { "source": "/guides/:match*", "destination": "https://lookup-guides.netlify.app/guides/:match*" }
+    { "source": "/guides/:match*", "destination": "https://lookup-guides.netlify.app/docs/countries:match*" }
   
   ]
   
