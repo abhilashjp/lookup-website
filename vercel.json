@@ -12,7 +12,7 @@
   
   "rewrites": [
     {
-      "source": "/docs",
+      "source": "/docs/*",
       "destination": "https://plausible.io/js/script.js"
     },
   
