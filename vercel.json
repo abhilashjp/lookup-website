@@ -1,6 +1,11 @@
 
 
 {
+  "rewrites": [
+    
+    { "source": "/docs/:match*", "destination": "https://lookup-guides.netlify.app/blog/:match*" },
+  ],
+
   "build": {
     "env": {
       
@@ -9,8 +14,4 @@
   
 }
 
-"rewrites": [
-    
-    { "source": "/docs/:match*", "destination": "https://lookup-guides.netlify.app/blog/:match*" },
-  ]
 
