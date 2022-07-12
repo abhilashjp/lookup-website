@@ -8,7 +8,7 @@ export const menuItems = [
         label: 'About',
       },
       {
-        path: '#!',
+        path: '/docs/intro/',
         label: 'Affiliate',
       },
       {
