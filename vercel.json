@@ -1,7 +1,27 @@
 {
   "build": {
     "env": {
+      
+      
 
     }
   }
+}
+{
+  "routes": [
+    {
+      "src": "/guides",
+      "dest": "https://lookup-guides.netlify.app"
+    },
+
+    {
+      "src": "/guides/(.*?)([.]\\w{2,5})(\\?[^/]+)?",
+      "dest": "https://lookup-guides.netlify.app/guides/$1$2$3"
+    },
+
+    {
+      "src": "/guides/([\\S\\s]+)",
+      "dest": "https://lookup-guides.netlify.app/guides/$1/"
+    }
+  ]
 }
