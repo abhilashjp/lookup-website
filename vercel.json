@@ -11,7 +11,7 @@
   }, 
   
   "rewrites": [
-    { "source": "/docs/:match*", "destination": "https://example.com/:match*" }
+    { "source": "/docs/:match*", "destination": "https://lookup-guides.netlify.app/blog/:match*" }
   
   ]
   
