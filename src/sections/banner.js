@@ -12,10 +12,10 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.content}>
             <Heading sx={styles.title}>
-              VAT validation APIs
+              VAT Validation 
             </Heading>
             <Text as="p" sx={styles.text}>
-              Use our global VAT validation API for automating your invoice operations. Standardised APIs, No Code solutions, asy setup.   
+              The Open Source solution to all your VAT number validation needs. Standardised APIs, No Code solutions, easy setup.   
             </Text>
             <Button variant="primary" sx={styles.button}>
               Explore Now
