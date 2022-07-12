@@ -16,7 +16,7 @@ export default [
     label: 'Faq',
   },
   {
-    path: 'docs',
+    path: '/docs',
     label: 'Guide',
   },
 ];
