@@ -2,7 +2,7 @@
   "routes": [
     {
       "src": "/docs",
-      "dest": "https://lookup-guides.netlify.app/blog”
+      "dest": "https://lookup-guides.netlify.app/blog/”
     },
 
     {
