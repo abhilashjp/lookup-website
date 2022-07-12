@@ -11,8 +11,8 @@
   }, 
   
   "rewrites": [
-    { "source": "/blog/:match*", "destination": "https://lookup-guides.netlify.app/blog/:match* 200! " },
-    { "source": "/docs/:match*", "destination": "https://lookup-guides.netlify.app/docs/:match*" 200! "},
+    { "source": "/blog/:match*", "destination": "https://lookup-guides.netlify.app/blog/:match* 200!" },
+    { "source": "/docs/:match*", "destination": "https://lookup-guides.netlify.app/docs/:match* 200! "},
     { "source": "/guides/:match*", "destination": "https://lookup-guides.netlify.app/docs/countries:match* 200! " }
   
   ]
