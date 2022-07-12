@@ -4,13 +4,7 @@
   "build": {
     "env": {
       
-      
-
-    }
-  }
-}
-
-async rewrites() {
+      async rewrites() {
     return [
       {
         source: "/docs",
@@ -38,3 +32,9 @@ async rewrites() {
       },
     ];
   },
+
+    }
+  }
+}
+
+
