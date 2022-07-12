@@ -1,12 +1,38 @@
 
 
 {
-
-  
   "build": {
     "env": {
-      
+     
     }
+  }, 
+  async rewrites() {
+    return [
+      {
+        source: "/docs",
+        destination: "https://lookup-guides.netlify.app/blog",
+      },
+      {
+        source: "/docs/(.*?)([.]\\w{2,5})(\\?[^/]+)?",
+        destination: "https://lookup-guides.netlify.app/blog/$1$2$3",
+      },
+      {
+        source: "/docs/([\\S\\s]+)",
+        destination: "https://lookup-guides.netlify.app/blog/$1/",
+      },
+    ];
+  },
+  async headers() {
+    return [
+      {
+        source: "/docs/:path*",
+        headers: [
+          { key: "X-Forwarded-Proto", value: "https" },
+          { key: "X-Forwarded-Host", value: "www.lookuptax.com" },
+          // { key: "X-Forwarded-For", value: "" },
+        ],
+      },
+    ];
   }
   
   
