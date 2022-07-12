@@ -3,8 +3,16 @@
 {
   "rewrites": [
     
-    { "source": "/docs/:match*", "destination": "https://lookup-guides.netlify.app/blog/:match*" },
-  ]
+    { "src": "/docs/:match*", "dest": "https://lookup-guides.netlify.app/blog/:match*" },
+  ],
+  
+  "build": {
+    "env": {
+      
+    }
+  }
+  
+  
 }
 
 
