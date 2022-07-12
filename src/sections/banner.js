@@ -15,7 +15,7 @@ const Banner = () => {
               VAT validation APIs
             </Heading>
             <Text as="p" sx={styles.text}>
-              Use our gloabl VAT validation API for automating your invoice operations. Standardised APIs, No code solutions, easy setup.   
+              Use our global VAT validation API for automating your invoice operations. Standardised APIs, No code solutions, easy setup.   
             </Text>
             <Button variant="primary" sx={styles.button}>
               Explore Now
