@@ -1,19 +1,31 @@
 
-{
-  "routes": [
-    {
-      "src": "/docs",
-      "dest": "https://lookup-guides.netlify.app/docs"
-    },
+async rewrites() {
+    return [
+      {
+        source: "/docs",
+        destination: "https://lookup-guides.netlify.app/",
+      },
+      {
+        source: "/docs/(.*?)([.]\\w{2,5})(\\?[^/]+)?",
+        destination: "https://lookup-guides.netlify.app/$1$2$3",
+      },
+      {
+        source: "/docs/([\\S\\s]+)",
+        destination: "https://lookup-guides.netlify.app//$1/",
+      },
+    ];
+  },
+  async headers() {
+    return [
+      {
+        source: "/docs/:path*",
+        headers: [
+          { key: "X-Forwarded-Proto", value: "https" },
+          { key: "X-Forwarded-Host", value: www.lookuptax.com/ },
+          // { key: "X-Forwarded-For", value: "" },
+        ],
+      },
+    ];
+  },
 
-    {
-      "src": "/docs/(.*?)([.]\\w{2,5})(\\?[^/]+)?",
-      "dest": "https://lookup-guides.netlify.app/docs/$1$2$3"
-    },
 
-    {
-      "src": "/docs/([\\S\\s]+)",
-      "dest": "https://lookup-guides.netlify.app/docs/$1/"
-    }
-  ]
-}
