@@ -16,7 +16,7 @@ export default [
     label: 'Faq',
   },
   {
-    path: 'https://gentle-cobbler-f0ef6f.netlify.app/',
+    path: 'guides',
     label: 'Guide',
   },
 ];
