@@ -1,20 +1,11 @@
+
+
 {
-  "routes": [
+  "rewrites": [
     {
-      "src": "/docs",
-      "dest": "https://lookup-guides.netlify.app/”
+      "source": "/docs",
+      "destination": "https://lookup-guides.netlify.app/"
     },
-
-    {
-      "src": "/docs/(.*?)([.]\\w{2,5})(\\?[^/]+)?",
-      "dest": "https://lookup-guides.netlify.app/$1$2$3"
-    },
-
-    {
-      "src": "/docs/([\\S\\s]+)",
-      "dest": "https://lookup-guides.netlify.app/$1/"
-    }
+    
   ]
 }
-
-
