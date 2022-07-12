@@ -2,18 +2,18 @@
 {
   "routes": [
     {
-      "src": "/guides",
-      "dest": "https://lookup-guides.netlify.app/"
+      "src": "/docs",
+      "dest": "https://lookup-guides.netlify.app/docs"
     },
 
     {
-      "src": "/guides/(.*?)([.]\\w{2,5})(\\?[^/]+)?",
-      "dest": "https://lookup-guides.netlify.app/$1$2$3"
+      "src": "/docs/(.*?)([.]\\w{2,5})(\\?[^/]+)?",
+      "dest": "https://lookup-guides.netlify.app/docs/$1$2$3"
     },
 
     {
-      "src": "/guides/([\\S\\s]+)",
-      "dest": "https://lookup-guides.netlify.app/$1/"
+      "src": "/docs/([\\S\\s]+)",
+      "dest": "https://lookup-guides.netlify.app/docs/$1/"
     }
   ]
 }
