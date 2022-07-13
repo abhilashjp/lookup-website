@@ -18,7 +18,7 @@ const Banner = () => {
               The Open Source solution to all your VAT number validation needs. Standardised APIs, No Code solutions, easy setup.   
             </Text>
             <Button variant="primary" sx={styles.button}>
-              Explore Now
+              Get started
             </Button>
             <Box sx={styles.clients}>
               <Image src={paypal} alt="paypal" />
