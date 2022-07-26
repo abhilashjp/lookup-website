@@ -22,14 +22,7 @@ export default [
      path:'/docs/intro/',
     label: 'Guides',  
   },
-  
-  const clickHandle = () => {
-  document.location.href = 'https://stackoverflow.com/';
-}
 
-const Example = () => (
-  <button onClick={clickHandle}>StackOverflow</button>
-)
 ];
 
 
