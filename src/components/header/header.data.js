@@ -46,4 +46,4 @@ function guide() {
   )
 }
 
-export default guide
+export guide
