@@ -26,26 +26,12 @@ export default [
   
 ];
 
-export default function guide() 
-
-function guide() {
-  return (
-    <ul>
-      <li>
-        <Link href="/docs/intro/">
-          <a>guide</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/docs/intro/">
-          <a>About Us</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/docs/blog/">
-          <a>Blog Post</a>
-        </Link>
-      </li>
-    </ul>
-  )
+const clickHandle = () => {
+  document.location.href = 'https://stackoverflow.com/';
 }
+
+const Example = () => (
+  <button onClick={clickHandle}>StackOverflow</button>
+)
+
+export default Example;
