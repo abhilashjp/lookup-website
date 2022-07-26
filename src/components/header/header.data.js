@@ -5,9 +5,9 @@ export default function FirstPost() {
     <>
       <h1 className="title">
   Read{' '}
-  <Link href="/docs/intro">
+  <NextLink href="/docs/intro">
     <a>this page!</a>
-  </Link>
+  </NextLink>
 </h1>
     </>
   );
