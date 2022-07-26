@@ -18,9 +18,9 @@ export default [
   
   {
  
-     <Link href="/docs/blog/">
-          <a>Blog</a>
-        </Link>
+    <NextLink href='/docs/intro'>
+      <A>Guides</A>
+    </NextLink>
   }
 ];
 
