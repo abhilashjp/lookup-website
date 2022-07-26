@@ -34,4 +34,3 @@ const Example = () => (
   <button onClick={clickHandle}>StackOverflow</button>
 )
 
-export default Example;
