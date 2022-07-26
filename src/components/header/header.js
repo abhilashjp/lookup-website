@@ -6,6 +6,7 @@ import Sticky from 'react-stickynode';
 import Logo from 'components/logo';
 import { NavLink } from 'components/link';
 import menuItems from './header.data';
+import { Link } from 'components/link';
 
 export default function Header() {
   const [mobileMenu, setMobileMenu] = useState(false);
