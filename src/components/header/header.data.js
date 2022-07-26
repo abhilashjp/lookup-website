@@ -1,26 +1,22 @@
-
-
 export default [
   {
-    path: 'home',
-    label: 'Home',
+    path: "home",
+    label: "Home",
   },
   {
-    path: 'ultimate-feature',
-    label: 'Feature',
+    path: "ultimate-feature",
+    label: "Feature",
   },
   {
-    path: 'pricing',
-    label: 'Pricing',
+    path: "pricing",
+    label: "Pricing",
   },
   {
-    path: 'faq',
-    label: 'Faq',
+    path: "faq",
+    label: "Faq",
   },
-  
-
-
-];
-
-
-
+  {
+    path: "/docs",
+    label: "Guide",
+  },
+]
