@@ -1,4 +1,4 @@
-import { Link } from 'components/link'
+
 
 export default [
   {
@@ -18,10 +18,7 @@ export default [
     label: 'Faq',
   },
   
-  {
-     path:'/docs/intro/',
-    label: 'Guides',  
-  },
+
 
 ];
 
