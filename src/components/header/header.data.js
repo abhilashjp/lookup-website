@@ -17,10 +17,8 @@ export default [
   },
   
   {
- 
-    <NextLink href='/docs/intro'>
-      <A>Guides</A>
-    </NextLink>
-  }
+     href:'/docs/intro/',
+    label: 'Guides',  
+  },
 ];
 
