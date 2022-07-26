@@ -17,7 +17,7 @@ export default [
   },
   
   {
-     href:'/docs/intro/',
+     path:'/docs/intro/',
     label: 'Guides',  
   },
 ];
