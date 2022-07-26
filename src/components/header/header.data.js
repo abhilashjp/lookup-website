@@ -1,3 +1,5 @@
+import { Link } from 'components/link'
+
 export default [
   {
     path: 'home',
@@ -22,3 +24,26 @@ export default [
   },
 ];
 
+function guide() {
+  return (
+    <ul>
+      <li>
+        <Link href="/docs/intro/">
+          <a>guide</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/docs/intro/">
+          <a>About Us</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/docs/blog/">
+          <a>Blog Post</a>
+        </Link>
+      </li>
+    </ul>
+  )
+}
+
+export default guide
