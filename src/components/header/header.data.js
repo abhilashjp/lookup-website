@@ -17,9 +17,10 @@ export default [
   },
   
   {
-  <div>
-      <Link href="https://en.wikipedia.org/wiki/Next.js">NextJS wikipedia</Link>
-    </div>
+ 
+     <Link href="/docs/blog/">
+          <a>Blog</a>
+        </Link>
   }
 ];
 
