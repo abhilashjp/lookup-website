@@ -16,11 +16,10 @@ export default [
     label: 'Faq',
   },
   
+  {
+  <div>
+      <Link href="https://en.wikipedia.org/wiki/Next.js">NextJS wikipedia</Link>
+    </div>
+  }
 ];
-export default [
-{
-    path: '/docs/intro',
-    label: 'Guide',
-    
-  },
-  ];
+
