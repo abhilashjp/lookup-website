@@ -22,9 +22,8 @@ export default [
      path:'/docs/intro/',
     label: 'Guides',  
   },
-];
-
-function guide() {
+  
+  function guide() {
   return (
     <ul>
       <li>
@@ -45,5 +44,6 @@ function guide() {
     </ul>
   )
 }
+];
 
-export guide
+
