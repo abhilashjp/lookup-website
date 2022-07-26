@@ -23,7 +23,12 @@ export default [
     label: 'Guides',  
   },
   
-  function guide() {
+  
+];
+
+export default function guide() 
+
+function guide() {
   return (
     <ul>
       <li>
@@ -44,6 +49,3 @@ export default [
     </ul>
   )
 }
-];
-
-
