@@ -4,7 +4,7 @@ export const menuItems = [
     title: 'Company',
     items: [
       {
-        path: '/blog/',
+        path: '/docs/blog/',
         label: 'About',
       },
       {
