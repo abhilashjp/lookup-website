@@ -26,11 +26,5 @@ export default [
   
 ];
 
-const clickHandle = () => {
-  document.location.href = 'https://stackoverflow.com/';
-}
 
-const Example = () => (
-  <button onClick={clickHandle}>StackOverflow</button>
-)
 
