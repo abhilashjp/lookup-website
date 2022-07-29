@@ -9,11 +9,11 @@ import { rgba } from 'polished';
 const monthly = [
   {
     id: 1,
-    title: 'Free Plan',
-    subtitle: 'For Small teams or office',
+    title: 'Free',
+    subtitle: 'For Startups',
     amount: 0,
     isRecommended: false,
-    buttonText: 'Start free trail',
+    buttonText: 'Create an account',
     features: [
       {
         id: 1,
@@ -45,10 +45,10 @@ const monthly = [
   {
     id: 2,
     title: 'Premium',
-    subtitle: 'For startup enterprise',
+    subtitle: 'For Enterprise',
     amount: 89.99,
     isRecommended: true,
-    buttonText: 'Subscribe Now',
+    buttonText: 'Create an account',
     features: [
       {
         id: 1,
@@ -81,11 +81,11 @@ const monthly = [
 const annual = [
   {
     id: 1,
-    title: 'Free Plan',
+    title: 'Free Community Edition',
     subtitle: 'For Small teams or office',
     amount: 0,
     isRecommended: false,
-    buttonText: 'Start free trail',
+    buttonText: 'View on Github',
     features: [
       {
         id: 1,
@@ -116,11 +116,11 @@ const annual = [
   },
   {
     id: 2,
-    title: 'Premium',
+    title: 'Premium Support',
     subtitle: 'For startup enterprise',
     amount: 89.99 * 12 - 10,
     isRecommended: true,
-    buttonText: 'Subscribe Now',
+    buttonText: 'Contact Us',
     features: [
       {
         id: 1,
@@ -195,14 +195,14 @@ const Pricing = () => {
             onClick={() => handlePlan('monthly')}
             className={`${plan.active === 'monthly' ? 'active' : ''}`}
           >
-            Monthly Plan
+            Lookup Cloud
           </Button>
           <Button
             variant="text"
             onClick={() => handlePlan('annual')}
             className={`${plan.active === 'annual' ? 'active' : ''}`}
           >
-            Annual Plan
+            Self Hosted
           </Button>
         </Flex>
         <Grid sx={styles.priceWrapper}>
