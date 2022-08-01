@@ -20,15 +20,11 @@ const Banner = () => {
             <Button variant="primary" sx={styles.button}>
               Get started
             </Button>
-/* Changing customer testimonial examples into a comment for now.
-
-
             <Box sx={styles.clients}>
               <Image src={paypal} alt="paypal" />
               <Image src={google} alt="google" />
               <Image src={dropbox} alt="dropbox" />
             </Box>
- */
           </Box>
           <Box sx={styles.illustration}>
             <Image src={banner} alt="banner" />
