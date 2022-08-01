@@ -15,7 +15,7 @@ const Banner = () => {
               Tax ID validation infrastructure for absolutely everyone.  
             </Heading>
             <Text as="p" sx={styles.text}>
-              The Open Source solution to all your VAT number validation needs. Standardised APIs, No Code solutions, easy setup.   
+              Free, reliable and refreshingly easy to use standardised APIs.  
             </Text>
             <Button variant="primary" sx={styles.button}>
               Get started
