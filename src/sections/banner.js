@@ -12,7 +12,7 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.content}>
             <Heading sx={styles.title}>
-              VAT Validation 
+              Tax ID validation. Free, reliable and refreshingly simple. 
             </Heading>
             <Text as="p" sx={styles.text}>
               The Open Source solution to all your VAT number validation needs. Standardised APIs, No Code solutions, easy setup.   
