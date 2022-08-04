@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://startup-saas-classic.vercel.app',
+  siteUrl: 'https://lookuptax.com/',
   generateRobotsTxt: true,
   // optional
   // robotsTxtOptions: {
