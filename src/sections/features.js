@@ -12,26 +12,26 @@ const data = [
   {
     id: 1,
     color: '#28D1DC',
-    value: '80K+',
-    title: 'We have more than customers',
+    value: '28+',
+    title: 'countries supported',
   },
   {
     id: 2,
     color: '#FF753A',
-    value: '150+',
-    title: 'Free online tutorials videos available',
+    value: '99.99%',
+    title: 'system uptime',
   },
   {
     id: 3,
     color: '#FA578E',
-    value: '90+',
-    title: 'Daily updated blog post maintain',
+    value: '#1',
+    title: 'Open source',
   },
   {
     id: 4,
     color: '#28DCB2',
-    value: '& 3M',
-    title: 'Job posted everyday`s with  qualification',
+    value: '5 star',
+    title: 'Community driven roadmap',
   },
 ];
 
@@ -50,19 +50,24 @@ const Features = () => {
               sx={styles.heading}
               title={
                 <Fragment>
-                  Smart Jackpots <br />
-                  that you may love this anytime &amp; anywhere
+                  Eureka! <br />
+                  Look no further. You are in expert hands; 
                 </Fragment>
               }
-              description="Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever."
+              description="We are here to make your Tax ID validation"
+"
             />
             <Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
-              Unlimited design possibility
+              Easier and Efficient
             </Text>
             <Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
-              Completely responsive features
+              Affordable
+            </Text>
+            <Text sx={styles.listItem} as="p">
+              <Image src={checkFilledCircle} alt="check icon" />
+              Secure
             </Text>
             <Box sx={styles.explore}>
               <LearnMore path="#!" label="Explore More" />
