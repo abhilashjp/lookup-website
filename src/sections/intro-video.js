@@ -17,8 +17,8 @@ const IntroVideo = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Leading companies trust us to develop most powerful software with our talent team"
-          description="Every email, web page, and social media post makes an impression on your customers. With our software you can be confident it's impression."
+          title="Building blocks for anything taxation"
+          description="Our platform will eliminate business’ need for multiple integrations with individual data sources. We manage all the individual integrations on our end and let you access through a single API"
         />
         <Box sx={styles.explore}>
           <LearnMore path="#!" label="Explore More" />
