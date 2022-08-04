@@ -55,7 +55,6 @@ const Features = () => {
                 </Fragment>
               }
               description="We are here to make your Tax ID validation"
-"
             />
             <Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
