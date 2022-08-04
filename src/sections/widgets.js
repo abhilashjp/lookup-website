@@ -18,8 +18,8 @@ const Widgets = () => {
           <Box sx={styles.rightContent}>
             <SectionHeading
               sx={styles.heading}
-              title="Ultimate widgets of collection that will be used anywhere"
-              description="Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever."
+              title="Plug and play solutions and integrations"
+              description="No code solution to enable VAT validation in your existing billing and CRM tools."
             />
             <Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
@@ -30,7 +30,7 @@ const Widgets = () => {
               Completely responsive features
             </Text>
             <Box sx={styles.explore}>
-              <LearnMore path="#!" label="Explore More" />
+              <LearnMore path="#!" label="Request an app integration" />
             </Box>
           </Box>
         </Box>
