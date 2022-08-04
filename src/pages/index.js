@@ -16,7 +16,7 @@ export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
       <Layout>
-        <SEO title="Startup Landing 010" />
+        <SEO title="LookupTax | One API for Tax ID validation across the globe" />
         <Banner />
         <UltimateFeatures />
         <Features />
