@@ -12,11 +12,10 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.content}>
             <Heading sx={styles.title}>
-              Tax ID validation infrastructure for absolutely everyone.  
+              Tax ID validation for everyone. 
             </Heading>
             <Text as="p" sx={styles.text}>
-              Free, reliable and refreshingly easy to use standardised APIs.  
-            </Text>
+              VAT number, ABN, GSTIN. Validate these and more using our free, secure and refreshingly easy to use APIs.
             <Button variant="primary" sx={styles.button}>
               Get started
             </Button>
