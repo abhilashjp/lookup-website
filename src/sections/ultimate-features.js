@@ -12,26 +12,26 @@ const data = [
   {
     id: 1,
     icon: bulb,
-    title: 'Fast Performance',
-    description: 'See where you’re making and spending money in real.',
+    title: 'Global coverage',
+    description: 'Multiple national databases under one roof',
   },
   {
     id: 2,
     icon: dart,
-    title: 'Best Strategy',
-    description: 'Send money with three clicks by wire, check, or ACH.',
+    title: 'Validate in Bulk',
+    description: 'Upload Tax IDs in bulk and instantly validate their authenticity',
   },
   {
     id: 3,
     icon: rocket,
-    title: 'Boost Performance',
-    description: 'Choose the right tone and fast formality level.',
+    title: 'Single API',
+    description: 'Easily switch Tax ID validation between countries with a single API integration',
   },
   {
     id: 4,
     icon: trophy,
-    title: 'Award history',
-    description: `Keep secure with fluent 2-factor authentication full activity.`,
+    title: 'Audit trails',
+    description: 'Refer to validation history anytime' ,
   },
 ];
 
@@ -41,8 +41,8 @@ const UltimateFeatures = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Go Beyond unlimited features"
-          description="Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click into your preferred format."
+          title="One API for Tax ID validation across the globe"
+          description="Leave the hassle of bringing together multiple Tax ID sources in one place to us. Focus your energy on building your core product."
         />
         <Box sx={styles.features}>
           {data?.map((item) => (
