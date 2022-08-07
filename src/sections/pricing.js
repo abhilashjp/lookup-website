@@ -10,7 +10,7 @@ const monthly = [
   {
     id: 1,
     title: 'Free',
-    subtitle: 'For Startups',
+    subtitle: 'For getting started',
     amount: 0,
     isRecommended: false,
     buttonText: 'Create an account',
@@ -18,27 +18,27 @@ const monthly = [
       {
         id: 1,
         isAvailable: true,
-        title: 'Ultimate access to all course, exercises and assessments',
+        title: 'Full access to all features',
       },
       {
         id: 2,
         isAvailable: true,
-        title: `Free access for all kind of exercise corrections with downloads.`,
+        title: 'One API to validate Tax ID in various countries',
       },
       {
         id: 3,
         isAvailable: true,
-        title: `Total assessment corrections with free download access system`,
+        title: 'Bulk Tax ID validation',
       },
       {
         id: 4,
-        isAvailable: false,
-        title: `Unlimited download of courses on the mobile app contents`,
+        isAvailable: true,
+        title: '100 API requests',
       },
       {
         id: 5,
         isAvailable: false,
-        title: `Download and print courses and exercises in PDF`,
+        title: 'Premium Support',
       },
     ],
   },
