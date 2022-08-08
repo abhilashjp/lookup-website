@@ -12,34 +12,26 @@ const faqs = [
     ),
   },
   {
-    title: 'What sources do you support?',
+    title: 'What countries do you support for Tax ID validation?',
     contents: (
       <div>
-        Rhino skin maybe thick but it can be quite sensitive to sunburns and
-        insect bites which is why they like wallow so much – when the mud dries
-        it acts as protection from the sunburns and insects.
+        We make use of national databases to support Tax ID validation. Currently support exists for EU through VIES, UK through HMRC, India through GST portal, Australia through Australian Business Register. We understand that you might be selling globally in other countries too and we plan to expland our support ourselves and with the help of the community.
       </div>
     ),
   },
   {
-    title: `Website response taking time, how to improve?`,
+    title: 'How can I contribute to your code base?',
     contents: (
       <div>
-        Get your blood tests delivered at the home collect a sample from
-        management news. Get your blood tests delivered at the home collect a
-        sample from management news. Get your blood tests delivered at the home
-        collect a sample from management news. Get your blood tests delivered at
-        the home.
+        You can access our Github repository here to contribute. Insert link in here.
       </div>
     ),
   },
   {
-    title: `New update fixed all bug and issues`,
+    title: 'What do I do if I am facing trouble integrating or having any other questions?',
     contents: (
       <div>
-        If you’re looking to hunt a unicorn, but don’t know where to begin, try
-        Lake Superior State University in Sault Ste. Marie, Michigan. Since
-        1971, the university has issued permits to unicorn questers.
+        You can reach out to support@lookuptax.com for all questions. We promise to give you a response as soon as possible. You might sometimes see a delay in getting a response but please do bear with us as we are a very small team now.
       </div>
     ),
   },
