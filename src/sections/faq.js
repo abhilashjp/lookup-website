@@ -4,17 +4,15 @@ import SectionHeader from 'components/section-heading';
 import Accordion from 'components/accordion/accordion';
 const faqs = [
   {
-    title: 'How to contact with riders emergency ?',
+    title: 'Why is your solution open-source?',
     contents: (
       <div>
-        Get your website ads tests delivered at let collect sample from the
-        victory of the managements that supplies best design system which
-        guidelines ever with multiple features.
+        Most of the information is already available in national databases ( VIES, HMRC etc). We want to make it easier to validate tax ID with a single API in one place. However, to build it out and maintain it for every country would be a very difficult task and can only be achieved with the help of a community supporting it.  
       </div>
     ),
   },
   {
-    title: 'App installation failed, how to update system information?',
+    title: 'What sources do you support?',
     contents: (
       <div>
         Rhino skin maybe thick but it can be quite sensitive to sunburns and
