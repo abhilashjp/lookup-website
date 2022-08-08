@@ -46,7 +46,7 @@ const monthly = [
     id: 2,
     title: 'Pro',
     subtitle: 'For fast growth teams',
-    amount: $49,
+    amount: 49,
     isRecommended: true,
     buttonText: 'Create an account',
     features: [
