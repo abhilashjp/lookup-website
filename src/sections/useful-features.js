@@ -30,7 +30,7 @@ const data = [
   {
     id: 4,
     icon: award,
-    title: 'Take comtrol',
+    title: 'Take control',
     description: `We believe it’s important for everyone to have access to software – especially when it comes to digital learning tools. Eduflow is built with WCAG standards in mind and can easily be navigated by keyboard and screen readers.`,
   },
 ];
