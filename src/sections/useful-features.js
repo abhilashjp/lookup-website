@@ -13,24 +13,24 @@ const data = [
     id: 1,
     icon: bulb,
     title: 'Fast Performance',
-    description: `Let’s just get this out of the way - there will always be a kit version of Eduflow. Built by educators, we believe in equating education for all. Paid subscriptions allow us to continue helping learners around the world.`,
+    description: `UK. Europe. Australia. No matter the country, call our API's and instantly see the results. You don't deserve to wait.`,
   },
   {
     id: 2,
     icon: diamond,
-    title: 'Pro Subscription',
+    title: 'Free subscription for small businesses',
     description: `We believe it’s important for everyone to have access to software – especially when it comes to digital learning tools. Eduflow is built with WCAG standards in mind and can easily be navigated by keyboard and screen readers.`,
   },
   {
     id: 3,
     icon: help,
-    title: 'Partnership deal',
+    title: 'We want to be where you are',
     description: `Let’s just get this out of the way - there will always be a kit version of Eduflow. Built by educators, we believe in equating education for all. Paid subscriptions allow us to continue helping learners around the world.`,
   },
   {
     id: 4,
     icon: award,
-    title: 'Customer Support',
+    title: 'Take comtrol',
     description: `We believe it’s important for everyone to have access to software – especially when it comes to digital learning tools. Eduflow is built with WCAG standards in mind and can easily be navigated by keyboard and screen readers.`,
   },
 ];
