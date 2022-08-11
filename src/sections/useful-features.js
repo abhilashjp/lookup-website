@@ -41,8 +41,8 @@ const UsefulFeatures = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Amazing useful features"
-          description="Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click into your preferred format."
+          title="The Lookup Promise"
+          description="Focus on other parts of your business operations. We will take care of Tax ID validation. Integrate once and forget about it. That's how reliable we are."
         />
         <Box sx={styles.features}>
           {data?.map((item) => (
