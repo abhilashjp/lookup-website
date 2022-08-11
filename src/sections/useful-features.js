@@ -24,7 +24,7 @@ const data = [
   {
     id: 3,
     icon: help,
-    title: 'We want to be where you are',
+    title: 'Meet us where you want',
     description: `Let’s just get this out of the way - there will always be a kit version of Eduflow. Built by educators, we believe in equating education for all. Paid subscriptions allow us to continue helping learners around the world.`,
   },
   {
