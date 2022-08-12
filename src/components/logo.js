@@ -1,8 +1,8 @@
 /** @jsx jsx */
 import { jsx, Image } from 'theme-ui';
 import { Link } from 'components/link';
-import logo from 'assets/images/lookuptax-logo.png';
-import logoWhite from 'assets/images/lookuptax-logo.png';
+import logo from 'assets/images/Lookuptax-logo.png';
+import logoWhite from 'assets/images/Lookuptax-logo.png';
 
 export default function Logo({ isWhite }) {
   return (
