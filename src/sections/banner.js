@@ -21,9 +21,9 @@ const Banner = () => {
               Get started
             </Button>
           <Box sx={styles.clients}>
-           <!--   <Image src={paypal} alt="paypal" />
-            <!--  <Image src={google} alt="google" />
-           <!--   <Image src={dropbox} alt="dropbox" /> --!>
+           <!---   <Image src={paypal} alt="paypal" /> -->
+            <!---  <Image src={google} alt="google" />-->
+           <!---   <Image src={dropbox} alt="dropbox" /> -->
             </Box>
           </Box>
           <Box sx={styles.illustration}>
