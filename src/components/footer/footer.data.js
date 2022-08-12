@@ -5,19 +5,19 @@ export const menuItems = [
     items: [
       {
         path: '/docs/blog/',
-        label: 'About',
+        label: 'About Lookuptax',
       },
       {
-        path: '/docs/intro/',
-        label: 'Affiliate',
+        path: '/docs/',
+        label: 'Documentation',
       },
       {
-        path: '#!',
-        label: 'Careers & Culture    ',
+        path: '/docs/category/country-guides',
+        label: 'Guides',
       },
       {
-        path: '#!',
-        label: 'Blog',
+        path: '/docs/category/explainers',
+        label: 'Explainers',
       },
       {
         path: '#!',
@@ -35,7 +35,7 @@ export const menuItems = [
       },
       {
         path: '#!',
-        label: 'Customer Support',
+        label: 'Blog',
       },
       {
         path: '#!',
