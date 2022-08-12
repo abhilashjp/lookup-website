@@ -19,15 +19,15 @@ const Widgets = () => {
             <SectionHeading
               sx={styles.heading}
               title="Plug and play solutions and integrations"
-              description="No code solution to enable VAT validation in your existing billing and CRM tools."
+              description="No code solution to enable Tax ID validation in your existing billing and CRM tools (Coming soon)."
             />
             <Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
-              Unlimited design possibility
+              Connect with your favourite apps and validate Tax IDs instantly
             </Text>
             <Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
-              Completely responsive features
+              10+ Apps support on the way
             </Text>
             <Box sx={styles.explore}>
               <LearnMore path="#!" label="Request an app integration" />
