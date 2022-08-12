@@ -27,7 +27,7 @@ const Widgets = () => {
             </Text>
             <Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
-              10+ Apps support on the way
+              10+ apps support on the way
             </Text>
             <Box sx={styles.explore}>
               <LearnMore path="#!" label="Request an app integration" />
