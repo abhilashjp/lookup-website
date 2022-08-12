@@ -82,7 +82,7 @@ const annual = [
   {
     id: 1,
     title: 'Free Community Edition',
-    subtitle: 'For Small teams or office',
+    subtitle: 'For Everyone',
     amount: 0,
     isRecommended: false,
     buttonText: 'View on Github',
@@ -90,62 +90,62 @@ const annual = [
       {
         id: 1,
         isAvailable: true,
-        title: 'Ultimate access to all course, exercises and assessments',
+        title: 'Self Hosting',
       },
       {
         id: 2,
         isAvailable: true,
-        title: `Free access for all kind of exercise corrections with downloads.`,
+        title: `Full access to codebase`,
       },
       {
         id: 3,
         isAvailable: true,
-        title: `Total assessment corrections with free download access system`,
+        title: `All feature available`,
       },
       {
         id: 4,
         isAvailable: false,
-        title: `Unlimited download of courses on the mobile app contents`,
+        title: `Dedicated support`,
       },
       {
         id: 5,
         isAvailable: false,
-        title: `Download and print courses and exercises in PDF`,
+        title: `Implementation support`,
       },
     ],
   },
   {
     id: 2,
     title: 'Premium Support',
-    subtitle: 'For startup enterprise',
-    amount: 89.99 * 12 - 10,
+    subtitle: 'For Enterprise',
+   /** amount: 89.99 * 12 - 10,*/
     isRecommended: true,
     buttonText: 'Contact Us',
     features: [
       {
         id: 1,
         isAvailable: true,
-        title: 'Ultimate access to all course, exercises and assessments',
+        title: 'Self Hosting',
       },
       {
         id: 2,
         isAvailable: true,
-        title: `Free access for all kind of exercise corrections with downloads.`,
+        title: `Full access to codebase`,
       },
       {
         id: 3,
         isAvailable: true,
-        title: `Total assessment corrections with free download access system`,
+        title: `All feature available`,
       },
       {
         id: 4,
         isAvailable: true,
-        title: `Unlimited download of courses on the mobile app contents`,
+        title: `Dedicated support`,
       },
       {
         id: 5,
         isAvailable: true,
-        title: `Download and print courses and exercises in PDF`,
+        title: `Implementation Support`,
       },
     ],
   },
@@ -188,7 +188,7 @@ const Pricing = () => {
         />
         <Flex sx={styles.priceSwitcher}>
           <Text as="span" className="discount">
-            Save 20%
+            Open Source
           </Text>
           <Button
             variant="text"
