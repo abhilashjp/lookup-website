@@ -20,11 +20,11 @@ const Banner = () => {
             <Button variant="primary" sx={styles.button}>
               Get started
             </Button>
-         <!-- <Box sx={styles.clients}> //-->
+          <Box sx={styles.clients}> 
            <!--   <Image src={paypal} alt="paypal" /> //-->
            <!--   <Image src={google} alt="google" />//-->
            <!--   <Image src={dropbox} alt="dropbox" /> //-->
-           <!--  </Box> //-->
+            </Box> 
           </Box>
           <Box sx={styles.illustration}>
             <Image src={banner} alt="banner" />
