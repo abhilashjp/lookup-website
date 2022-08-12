@@ -118,7 +118,7 @@ const annual = [
     id: 2,
     title: 'Premium Support',
     subtitle: 'For Enterprise',
-   /** amount: 89.99 * 12 - 10,*/
+    amount: 150,
     isRecommended: true,
     buttonText: 'Contact Us',
     features: [
