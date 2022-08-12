@@ -183,8 +183,8 @@ const Pricing = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="What deal suit you perfect"
-          description="Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click into your preferred format."
+          title="Choose a plan that is right for you"
+          description="With plans for both startups and large enterprises, everyone can use Lookup"
         />
         <Flex sx={styles.priceSwitcher}>
           <Text as="span" className="discount">
