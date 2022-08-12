@@ -25,7 +25,7 @@ const data = [
     id: 3,
     icon: help,
     title: 'Partner with us',
-    description: `We want to seamlessly integrate with your Billing, CRM and any other tools where you want to validate Tax IDs. Drop a request if you want us to build an integration with the tool you use. If you are a platform where your customers need to validate Tax IDs partner with us to offer this support to your customers. Insert Request an app integration link here`,
+    description: `We want to seamlessly integrate with your Billing, CRM and any other tools where you want to validate Tax IDs. Drop a request if you want us to build an integration with the tool you use. If you are a platform where your customers need to validate Tax IDs partner with us. Insert Request an app integration link here`,
   },
   {
     id: 4,
