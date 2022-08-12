@@ -19,13 +19,13 @@ const data = [
     id: 2,
     icon: diamond,
     title: 'Free subscription for small businesses',
-    description: `We believe it’s important for everyone to have access to software – especially when it comes to digital learning tools. Eduflow is built with WCAG standards in mind and can easily be navigated by keyboard and screen readers.`,
+    description: `If you are a freelancer or a startup, get started with our free plan with 100 Tax ID validations. You only have to pay as you grow.`,
   },
   {
     id: 3,
     icon: help,
-    title: 'Meet us where you want',
-    description: `Let’s just get this out of the way - there will always be a kit version of Eduflow. Built by educators, we believe in equating education for all. Paid subscriptions allow us to continue helping learners around the world.`,
+    title: 'Partner with us',
+    description: `We want to seamlessly integrate with your billing, CRM and any other tools where you might want to validate Tax IDs. Drop a request if you want us to build an integration with the tool you use. If you are a platform where your customers need to validate Tax IDs partner with us to offer this support to your customers.`,
   },
   {
     id: 4,
