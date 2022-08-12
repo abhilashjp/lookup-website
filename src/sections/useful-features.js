@@ -19,19 +19,19 @@ const data = [
     id: 2,
     icon: diamond,
     title: 'Free subscription for small businesses',
-    description: `If you are a freelancer or a startup, get started with our free plan with 100 Tax ID validations. You only have to pay as you grow.`,
+    description: `If you are a freelancer or a startup, get started with our free plan with 100 Tax ID validations per month. You only have to pay as you grow.`,
   },
   {
     id: 3,
     icon: help,
     title: 'Partner with us',
-    description: `We want to seamlessly integrate with your billing, CRM and any other tools where you might want to validate Tax IDs. Drop a request if you want us to build an integration with the tool you use. If you are a platform where your customers need to validate Tax IDs partner with us to offer this support to your customers.`,
+    description: `We want to seamlessly integrate with your Billing, CRM and any other tools where you want to validate Tax IDs. Drop a request if you want us to build an integration with the tool you use. If you are a platform where your customers need to validate Tax IDs partner with us to offer this support to your customers. Insert Request an app integration link here`,
   },
   {
     id: 4,
     icon: award,
     title: 'Take control',
-    description: `We believe it’s important for everyone to have access to software – especially when it comes to digital learning tools. Eduflow is built with WCAG standards in mind and can easily be navigated by keyboard and screen readers.`,
+    description: `Self hosting option for enhanced privacy. Open source community support to extend Tax ID validation to all countries you sell to.`,
   },
 ];
 
