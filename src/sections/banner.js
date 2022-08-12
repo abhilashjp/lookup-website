@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx, Box, Container, Heading, Text, Button, Image } from 'theme-ui';
-import banner from 'assets/images/banner_1.png';
+import banner from 'assets/images/banner_2.png';
 import paypal from 'assets/images/paypal.png';
 import google from 'assets/images/google.png';
 import dropbox from 'assets/images/dropbox.png';
@@ -20,10 +20,10 @@ const Banner = () => {
             <Button variant="primary" sx={styles.button}>
               Get started
             </Button>
-            <Box sx={styles.clients}>
-              <Image src={paypal} alt="paypal" />
-              <Image src={google} alt="google" />
-              <Image src={dropbox} alt="dropbox" />
+          <Box sx={styles.clients}>
+           <!--   <Image src={paypal} alt="paypal" />
+            <!--  <Image src={google} alt="google" />
+           <!--   <Image src={dropbox} alt="dropbox" /> --!>
             </Box>
           </Box>
           <Box sx={styles.illustration}>
