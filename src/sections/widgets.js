@@ -4,7 +4,7 @@ import SectionHeading from 'components/section-heading';
 import { LearnMore } from 'components/link';
 import Image from 'components/image';
 
-import banner from 'assets/images/widgets.png';
+import banner from 'assets/images/apps.png';
 import checkFilledCircle from 'assets/images/icons/check-circle-filled.png';
 
 const Widgets = () => {
