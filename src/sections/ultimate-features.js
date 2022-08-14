@@ -3,10 +3,10 @@ import { jsx, Box, Container } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import UltimateFeature from 'components/cards/ultimate-feature';
 
-import bulb from 'assets/images/icons/bulb.png';
-import dart from 'assets/images/icons/dart.png';
-import rocket from 'assets/images/icons/rocket.png';
-import trophy from 'assets/images/icons/trophy.png';
+import bulb from 'assets/images/icons/global_coverage.png';
+import dart from 'assets/images/icons/bulk_valitation.png';
+import rocket from 'assets/images/icons/Single_api.png';
+import trophy from 'assets/images/icons/audit_trails.png';
 
 const data = [
   {
