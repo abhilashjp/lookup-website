@@ -24,31 +24,13 @@ const IntroVideo = () => {
           <LearnMore path="#!" label="Explore More" />
         </Box>
         <Box sx={styles.videoWrapper}>
-          <Modal isOpen={isOpen}>
-            <CloseButton
-              onClick={() => setIsOpen(false)}
-              size="24px"
-              color="#fff"
-            />
-            <ResponsiveIframe
-              src="https://player.vimeo.com/video/394343710?autoplay=1&color=28DDB2&title=0&byline=0&portrait=0"
-              allow="autoplay; fullscreen"
-              allowFullScreen
-            />
-          </Modal>
-
+         
           <Image
             src={videoBanner}
             className="video-banner"
             alt="video banner"
           />
-          <Button
-            variant="text"
-            sx={styles.playPause}
-            onClick={() => setIsOpen(true)}
-          >
-            <Image src={Play} alt="play" /> Watch Full video
-          </Button>
+          
         </Box>
       </Container>
     </Box>
