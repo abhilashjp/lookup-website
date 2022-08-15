@@ -20,12 +20,8 @@ export default function Header() {
     if (label === "Guides") {
       // redirect to /docs
       Router.push("/docs/")
-    }
-    setMobileMenu(false)
-  }
-const closeMobileMenu = evt => {
-    const label = evt.target.innerHTML
-    if (label === "Explainers") {
+    },
+     else if (label === "Explainers") {
       // redirect to /docs
       Router.push("/docs/category/explainers/")
     }
