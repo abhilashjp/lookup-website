@@ -20,7 +20,7 @@ export default function Header() {
     if (label === "Guides") {
       // redirect to /docs
       Router.push("/docs/")
-    },
+    }
      else if (label === "Explainers") {
       // redirect to /docs
       Router.push("/docs/category/explainers/")
