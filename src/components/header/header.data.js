@@ -17,7 +17,7 @@ export default [
   },
   {
     path: "/docs/",
-    label: "Guides",
+    label: "Guide",
   },
   
 ]
