@@ -69,7 +69,7 @@ const Features = () => {
               Secure
             </Text>
             <Box sx={styles.explore}>
-              <LearnMore path="#!" label="Explore More" />
+              <LearnMore path="/docs" label="Explore More" />
             </Box>
           </Box>
         </Box>
