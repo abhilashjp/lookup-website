@@ -23,14 +23,6 @@ const Banner = () => {
             </Button>
         </form>
           </Box>
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js?pre=1"></script>
-<script>
-  hbspt.forms.create({
-    region: "na1",
-    portalId: "22529954",
-    formId: "a16f7dad-52b2-4450-8d85-fac6da7562e0"
-  });
-</script>
           <Box sx={styles.illustration}>
             <Image src={banner} alt="banner" />
           </Box>
