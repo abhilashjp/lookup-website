@@ -17,7 +17,7 @@ const Banner = () => {
             <Text as="p" sx={styles.text}>
               VAT number, ABN, GSTIN. Validate these and more using our free, secure and refreshingly easy to use APIs.
             </Text>
-            <Button variant="primary" sx={styles.button}>
+            <Button variant="primary" sx={styles.button} path="pricing" >
               Get started
             </Button>
         
