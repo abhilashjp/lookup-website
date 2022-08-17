@@ -18,7 +18,7 @@ const Banner = () => {
               VAT number, ABN, GSTIN. Validate these and more using our free, secure and refreshingly easy to use APIs.
             </Text>
             <form>
-            <Button variant="primary" sx={styles.button} formaction="#pricing" type="button" >
+            <Button variant="primary" sx={styles.button} formaction="#pricing" type="submit" >
               Get started
             </Button>
         </form>
