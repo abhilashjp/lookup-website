@@ -19,9 +19,7 @@ const Banner = () => {
             <Text as="p" sx={styles.text}>
               VAT number, ABN, GSTIN. Validate these and more using our free, secure and refreshingly easy to use APIs.
             </Text>
-
 <Box sx={styles.videoWrapper}>
-            <Box sx={styles.videoWrapper}>
           <Modal isOpen={isOpen}>
             <CloseButton
               onClick={() => setIsOpen(false)}
@@ -34,16 +32,20 @@ const Banner = () => {
               allowFullScreen
             />
           </Modal>
-            <Button
-            variant="primary"
+
+          <Image
+            src={videoBanner}
+            className="video-banner"
+            alt="video banner"
+          />
+          <Button
+            variant="text"
             sx={styles.playPause}
             onClick={() => setIsOpen(true)}
           >
-            <Image src={Play} alt="play" /> Get started
+            <Image src={Play} alt="play" /> Watch Full video
           </Button>
         </Box>
-
-          </Box>
           <Box sx={styles.illustration}>
             <Image src={banner} alt="banner" />
           </Box>
