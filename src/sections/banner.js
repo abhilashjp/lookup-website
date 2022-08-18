@@ -23,7 +23,7 @@ const Banner = () => {
         <Button variant="primary" sx={styles.button}>
               Get started
             </Button>
-
+</Box>
           <Box sx={styles.illustration}>
             <Image src={banner} alt="banner" />
           </Box>
