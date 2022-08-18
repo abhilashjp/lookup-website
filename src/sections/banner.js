@@ -28,7 +28,6 @@ const Banner = () => {
             <Image src={banner} alt="banner" />
           </Box>
         </Box>
-</Box>
       </Container>
     </Box>
   );
