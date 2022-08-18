@@ -4,6 +4,8 @@ import banner from 'assets/images/banner_2.png';
 import paypal from 'assets/images/paypal.png';
 import google from 'assets/images/google.png';
 import dropbox from 'assets/images/dropbox.png';
+import Modal, { CloseButton } from 'components/modal/modal';
+import ResponsiveIframe from 'components/responsive-iframe';
 
 const Banner = () => {
   return (
@@ -17,11 +19,30 @@ const Banner = () => {
             <Text as="p" sx={styles.text}>
               VAT number, ABN, GSTIN. Validate these and more using our free, secure and refreshingly easy to use APIs.
             </Text>
-            <form>
-            <Button variant="primary" sx={styles.button} formaction="#pricing" type="submit" >
-              Get started
-            </Button>
-        </form>
+
+<Box sx={styles.videoWrapper}>
+            <Box sx={styles.videoWrapper}>
+          <Modal isOpen={isOpen}>
+            <CloseButton
+              onClick={() => setIsOpen(false)}
+              size="24px"
+              color="#fff"
+            />
+            <ResponsiveIframe
+              src="https://player.vimeo.com/video/394343710?autoplay=1&color=28DDB2&title=0&byline=0&portrait=0"
+              allow="autoplay; fullscreen"
+              allowFullScreen
+            />
+          </Modal>
+            <Button
+            variant="primary"
+            sx={styles.playPause}
+            onClick={() => setIsOpen(true)}
+          >
+            <Image src={Play} alt="play" /> Get started
+          </Button>
+        </Box>
+
           </Box>
           <Box sx={styles.illustration}>
             <Image src={banner} alt="banner" />
