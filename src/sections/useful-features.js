@@ -3,33 +3,33 @@ import { jsx, Box, Container } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import UltimateFeature from 'components/cards/ultimate-feature';
 
-import bulb from 'assets/images/icons/bulb-2.png';
-import diamond from 'assets/images/icons/diamond.png';
-import help from 'assets/images/icons/help.png';
-import award from 'assets/images/icons/award.png';
+import fast from 'assets/images/icons/fast-performance.png';
+import Free from 'assets/images/icons/Free-subscription.png';
+import partner from 'assets/images/icons/become-partner.png';
+import control from 'assets/images/icons/Take-control.png';
 
 const data = [
   {
     id: 1,
-    icon: bulb,
+    icon: fast,
     title: 'Fast Performance',
     description: `UK. Europe. Australia. No matter the country, call our API's and instantly see the results. You don't deserve to wait.`,
   },
   {
     id: 2,
-    icon: diamond,
+    icon: Free,
     title: 'Free subscription for small businesses',
     description: `If you are a freelancer or a startup, get started with our free plan with 100 Tax ID validations per month. You only have to pay as you grow.`,
   },
   {
     id: 3,
-    icon: help,
+    icon: partner,
     title: 'Partner with us',
     description: `We want to seamlessly integrate with your Billing, CRM and any other tools where you want to validate Tax IDs. Drop a request if you want us to build an integration with the tool you use. If you are a platform where your customers need to validate Tax IDs partner with us. Insert Request an app integration link here`,
   },
   {
     id: 4,
-    icon: award,
+    icon: control,
     title: 'Take control',
     description: `Self hosting option for enhanced privacy. Open source community support to extend Tax ID validation to all countries you sell to.`,
   },
