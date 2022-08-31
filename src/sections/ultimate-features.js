@@ -3,33 +3,33 @@ import { jsx, Box, Container } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import UltimateFeature from 'components/cards/ultimate-feature';
 
-import bulb from 'assets/images/icons/global_coverage.png';
-import dart from 'assets/images/icons/bulk_validation.png';
-import rocket from 'assets/images/icons/Single_api.png';
-import trophy from 'assets/images/icons/audit_trails.png';
+import global from 'assets/images/icons/global-coverage.png';
+import bulk from 'assets/images/icons/bulk-validation.png';
+import api from 'assets/images/icons/single-api.png';
+import audit from 'assets/images/icons/audit-trails.png';
 
 const data = [
   {
     id: 1,
-    icon: bulb,
+    icon: global,
     title: 'Global coverage',
     description: 'Multiple national databases under one roof',
   },
   {
     id: 2,
-    icon: dart,
+    icon: bulk,
     title: 'Validate in Bulk',
     description: 'Upload Tax IDs in bulk and instantly validate their authenticity',
   },
   {
     id: 3,
-    icon: rocket,
+    icon: api,
     title: 'Single API',
     description: 'Easily switch Tax ID validation between countries with a single API integration',
   },
   {
     id: 4,
-    icon: trophy,
+    icon: audit,
     title: 'Audit trails',
     description: 'Refer to validation history anytime' ,
   },
