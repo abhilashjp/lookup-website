@@ -82,7 +82,7 @@ const styles = {
     mt: ["14px", "19px"],
   },
   button: {
-    display: ["none", "flex"],
+    display: ["flex", "flex"],
     mt: [45, 45, 45, 25, 25],
   },
   clients: {
