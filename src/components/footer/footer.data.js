@@ -4,11 +4,11 @@ export const menuItems = [
     title: 'Company',
     items: [
       {
-        path: '/docs/blog/',
+        path: '/docs/blog/about-lookuptax-open-source-tax',
         label: 'About Lookuptax',
       },
       {
-        path: '/docs/',
+        path: '/docs/category/explainers',
         label: 'Documentation',
       },
       {
