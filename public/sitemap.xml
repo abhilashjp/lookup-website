@@ -4,11 +4,6 @@
     <loc>https://lookuptax.com/</loc>
   </url>
   <url>
-  <loc>https://lookuptax.com/docs/</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.5</priority>
-</url>
-<url>
   <url>
 <loc>https://lookuptax.com/docs/blog</loc>
 <changefreq>weekly</changefreq>
@@ -60,6 +55,11 @@
 <priority>0.5</priority>
 </url>
 <url>
+<loc>https://lookuptax.com/docs/privacy-policy</loc>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
 <loc>https://lookuptax.com/docs/tags</loc>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
@@ -70,7 +70,17 @@
 <priority>0.5</priority>
 </url>
 <url>
+<loc>https://lookuptax.com/docs/tags/einvoice</loc>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
 <loc>https://lookuptax.com/docs/tags/einvoice-on-sez</loc>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://lookuptax.com/docs/tags/electronic-invoice</loc>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -125,7 +135,17 @@
 <priority>0.5</priority>
 </url>
 <url>
+<loc>https://lookuptax.com/docs/tags/spain</loc>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
 <loc>https://lookuptax.com/docs/tags/special-economic-zones</loc>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://lookuptax.com/docs/tags/vat</loc>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -146,6 +166,11 @@
 </url>
 <url>
 <loc>https://lookuptax.com/docs/tags/vat-registration-threshold</loc>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://lookuptax.com/docs/terms-conditions</loc>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -180,6 +205,16 @@
 <priority>0.5</priority>
 </url>
 <url>
+<loc>https://lookuptax.com/docs/country/Spain</loc>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://lookuptax.com/docs/einvoicing-status-networks</loc>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
 <loc>https://lookuptax.com/docs/explainers/qr-bill-switzerland</loc>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
@@ -204,4 +239,4 @@
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
-  </urlset>
+</urlset>
