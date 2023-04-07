@@ -50,3 +50,9 @@ export default function SEO({
     </Head>
   );
 }
+
+SEO.defaultProps = {
+  lang: `en`,
+  meta: [],
+  description: ``,
+};
