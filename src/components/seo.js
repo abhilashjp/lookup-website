@@ -53,6 +53,6 @@ export default function SEO({
 
 SEO.defaultProps = {
   lang: `en`,
-  meta: [VAT ID],
+  meta: [VATID],
   description: `One API for Tax ID validation across the globe`,
 };
