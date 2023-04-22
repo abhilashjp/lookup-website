@@ -4,6 +4,12 @@
     <loc>https://lookuptax.com/</loc>
   </url>
 <url>
+<url>
+<loc>https://lookuptax.com/docs/</loc>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
 <loc>https://lookuptax.com/docs/blog</loc>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
@@ -85,6 +91,11 @@
 </url>
 <url>
 <loc>https://lookuptax.com/docs/tags/eu-vat</loc>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://lookuptax.com/docs/tags/explainer</loc>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -250,6 +261,11 @@
 </url>
 <url>
 <loc>https://lookuptax.com/docs/important-tax-links</loc>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://lookuptax.com/docs/tax-glossary</loc>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
