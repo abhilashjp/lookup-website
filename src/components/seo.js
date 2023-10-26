@@ -2,10 +2,10 @@ import React from 'react';
 import Head from 'next/head';
 
 export default function SEO({
-  description = 'Building blocks for anything taxation',
+  description = 'Streamline VAT ID Validation Worldwide with Lookuptax. Access a single API for hassle-free validation in over 100 countries. Ensure accuracy and compliance effortlessly.',
   author = 'Lookuptax, Inc',
   meta,
-  title = 'One API for Tax ID validation across the globe',
+  title = 'Easiest way to do Tax ID validation across the globe',
 }) {
   const metaData = [
     {
