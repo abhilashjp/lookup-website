@@ -17,7 +17,7 @@ const Banner = () => {
       <Container>
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.content}>
-            <Heading sx={styles.title}>Tax ID validation for everyone.</Heading>
+            <Heading sx={styles.title}><h1>Tax ID validation for everyone.</h1></Heading>
             <Text as="p" sx={styles.text}>
               VAT number, ABN, GSTIN. Validate these and more using our free,
               secure and refreshingly easy to use APIs.
