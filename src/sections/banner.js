@@ -30,7 +30,20 @@ const Banner = () => {
             >
               Get started
             </Button>
-            
+            <Modal isOpen={isOpen} style={styles.modalform}>
+              <CloseButton
+                onClick={() => setIsOpen(false)}
+                size="24px"
+                color="#fff"
+              />
+              <HubspotForm
+                portalId="22529954"
+                formId="a16f7dad-52b2-4450-8d85-fac6da7562e0"
+                onSubmit={() => console.log("Submit!")}
+                onReady={() => console.log("Form ready!")}
+                loading={<div>Loading...</div>}
+              />
+            </Modal>
           </Box>
           <Box sx={styles.illustration}>
             <Image src={banner} alt="banner" />
