@@ -16,7 +16,7 @@ export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
       <Layout>
-        <SEO title="LookupTax | One API for Tax ID validation across the globe" />
+        <SEO title="LookupTax | Easiest way to validate Tax IDs across the globe. One API to validate VAT numbers for 100+ countries " />
         <Banner />
         <UltimateFeatures />
         <Features />
