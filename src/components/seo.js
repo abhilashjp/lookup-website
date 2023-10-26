@@ -54,5 +54,5 @@ export default function SEO({
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
-  description: `Streamline VAT ID Validation Worldwide with Lookuptax. Access a single API for hassle-free validation in over 100 countries. Ensure accuracy and compliance effortlessly.`,
+  description: `Streamline VAT ID Validation Worldwide with Lookuptax. Access a single API for hassle-free validation in over 100 countries. Ensure accuracy and compliance.`,
 };
