@@ -7,7 +7,7 @@ const faqs = [
     title: 'Why is your solution open-source?',
     contents: (
       <div>
-        Most of the information is already available in national databases ( VIES, HMRC etc). We want to make it easier to validate tax ID with a single API in one place. However, to build it out and maintain it for every country would be a very difficult task and can only be achieved with the help of a community supporting it.  
+        Most of the information is already available in national databases ( <a href="https://ec.europa.eu/taxation_customs/vies/#/vat-validation" target="_blank" rel="noopener noreferrer">VIES</a>, <a href="https://www.gov.uk/check-uk-vat-number" target="_blank" rel="noopener noreferrer">HMRC</a> etc). We want to make it easier to validate tax ID with a single API in one place. However, to build it out and maintain it for every country would be a very difficult task and can only be achieved with the help of a community supporting it.  
       </div>
     ),
   },
@@ -23,7 +23,7 @@ const faqs = [
     title: 'How can I contribute to your code base?',
     contents: (
       <div>
-        You can access our Github repository here to contribute. Insert link in here.
+        You can access our Github repository here to contribute. <a href="https://github.com/lookuptax" target="_blank" rel="noopener noreferrer">Github Org.</a>
       </div>
     ),
   },
