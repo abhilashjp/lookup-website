@@ -15,7 +15,7 @@ const faqs = [
     title: 'What countries do you support for Tax ID validation?',
     contents: (
       <div>
-        We make use of national databases to support Tax ID validation. Currently support exists for EU through VIES, UK through HMRC, India through GST portal, Australia through Australian Business Register. We understand that you might be selling globally in other countries too and we plan to expland our support ourselves and with the help of the community.
+        We make use of <a href="https://lookuptax.com/docs/check-vat-number-free-links-to-official-national-database-search-VAT-number" target="_blank" rel="noopener noreferrer">national databases</a> to support Tax ID validation. Currently support exists for EU through <a href="https://lookuptax.com/docs/blog/guide-to-vat-vies-vat-validation" target="_blank" rel="noopener noreferrer">VIES</a>, <a href="https://lookuptax.com/docs/country/uk-vat-guidelines-sales-tax-indirect-tax-united-kingdom" target="_blank" rel="noopener noreferrer">UK</a> through HMRC, <a href="https://lookuptax.com/docs/country/india-gst-guidelines-indirect-tax-sales-tax-india" target="_blank" rel="noopener noreferrer">India</a> through GST portal, Australia through Australian Business Register. We understand that you might be selling globally in other countries too and we plan to expland our support ourselves and with the help of the community.
       </div>
     ),
   },
