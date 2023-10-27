@@ -20,17 +20,17 @@ export const menuItems = [
         label: 'Explainers',
       },
       {
-        path: '#!',
-        label: 'Press',
+        path: '/docs/tax-glossary',
+        label: 'Glossary',
       },
     ],
   },
-  {
+/**   {
     id: 2,
     title: 'About Us',
     items: [
       {
-        path: '#!',
+       path: '#!',
         label: 'Support Center',
       },
       {
@@ -51,33 +51,38 @@ export const menuItems = [
       },
     ],
   },
+
+  */
   {
     id: 3,
     title: 'Our Information',
     items: [
-      {
+     /** {
         path: '#!',
         label: 'Return Policy ',
       },
+      */
       {
-        path: '#!',
+        path: '/docs/privacy-policy',
         label: 'Privacy Policy',
       },
       {
-        path: '#!',
+        path: '/docs/terms-conditions',
         label: 'Terms & Conditions',
       },
       {
-        path: '#!',
+        path: '/sitemap.xml',
         label: 'Site Map',
       },
+      /**
       {
         path: '#!',
         label: 'Store Hours',
       },
+      */
     ],
   },
-  {
+/**  {
     id: 4,
     title: 'My Account',
     items: [
@@ -103,6 +108,9 @@ export const menuItems = [
       },
     ],
   },
+
+  */
+ /** 
   {
     id: 5,
     title: 'Policy',
@@ -125,6 +133,7 @@ export const menuItems = [
       },
     ],
   },
+  */
 ];
 
 export const footerNav = [
@@ -132,7 +141,7 @@ export const footerNav = [
     path: '#!',
     label: 'Home',
   },
-  {
+ /** {
     path: '#!',
     label: 'Advertise',
   },
@@ -148,4 +157,5 @@ export const footerNav = [
     path: '#!',
     label: 'FAQ',
   },
+  */
 ];
