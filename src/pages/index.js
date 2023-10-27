@@ -16,7 +16,7 @@ export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
       <Layout>
-        <SEO title="Easiest way to validate Tax IDs across the world. One API to validate VAT Ids for 100+ countries " />
+        <SEO title="Easiest way to validate Tax IDs across the world. 100+ countries supported" />
         <Banner />
         <UltimateFeatures />
         <Features />
