@@ -42,7 +42,7 @@ const UltimateFeatures = () => {
         <SectionHeading
           sx={styles.heading}
           title="One API for Tax ID validation across the globe"
-          description="Leave the hassle of bringing together <a href='/docs/check-vat-number-free-links-to-official-national-database-search-VAT-number'>multiple Tax ID sources </a> in one place to us. Focus your energy on building your core product."
+          description="Leave the hassle of bringing together multiple Tax ID sources in one place to us. Focus your energy on building your core product."
         />
         <Box sx={styles.features}>
           {data?.map((item) => (
