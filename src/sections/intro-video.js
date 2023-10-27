@@ -17,7 +17,7 @@ const IntroVideo = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Building blocks for anything taxation"
+          title="Building blocks for validating businesses"
           description="Our platform will eliminate business’ need for multiple integrations with individual data sources. We manage all the individual integrations on our end and let you access through a single API"
         />
         <Box sx={styles.explore}>
