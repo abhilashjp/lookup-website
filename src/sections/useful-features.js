@@ -13,7 +13,7 @@ const data = [
     id: 1,
     icon: fast,
     title: 'Fast Performance',
-    description: `UK. Europe. Australia. No matter the country, call our API's and instantly see the results. You don't deserve to wait.`,
+    description: `<a href="/docs/country/uk-vat-guidelines-sales-tax-indirect-tax-united-kingdom" target="_blank" rel="noopener noreferrer"> UK </a> Europe. Australia. No matter the country, call our API's and instantly see the results. You don't deserve to wait.`,
   },
   {
     id: 2,
