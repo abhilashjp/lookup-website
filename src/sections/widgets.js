@@ -10,11 +10,15 @@ import Modal, { CloseButton } from "components/modal/modal"
 import ResponsiveIframe from "components/responsive-iframe"
 import HubspotForm from "react-hubspot-form"
 
-const Banner = () => {
-  const [isOpen, setIsOpen] = useState(false)
-
+ 
 
 const Widgets = () => {
+const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+  
   return (
     <Box as="section" id="widgets" variant="section.widgets">
       <Container>
@@ -37,33 +41,24 @@ const Widgets = () => {
               10+ apps support on the way
             </Text>
             <Box sx={styles.explore}>
-              <LearnMore path="#!" label="Request an app integration" />
+              <LearnMore path="#!" label="Request an app integration" onClick={openModal} />
             </Box>
-  <Button
-              variant="primary"
-              sx={styles.button}
-              onClick={() => setIsOpen(true)}
-            >
-              Get started
-            </Button>
-            <Modal isOpen={isOpen} style={styles.modalform}>
-              <CloseButton
-                onClick={() => setIsOpen(false)}
-                size="24px"
-                color="#fff"
-              />
-              <HubspotForm
+          </Box>
+        </Box>
+      </Container>
+    </Box>
+{isModalOpen && (
+      <Modal isOpen={isModalOpen} styles={styles.modalform} setIsOpen={setIsModalOpen}>
+        <HubspotForm
                 portalId="22529954"
                 formId="a16f7dad-52b2-4450-8d85-fac6da7562e0"
                 onSubmit={() => console.log("Submit!")}
                 onReady={() => console.log("Form ready!")}
                 loading={<div>Loading...</div>}
               />
-            </Modal>
-          </Box>
-        </Box>
-      </Container>
-    </Box>
+      </Modal>
+    )}
+
   );
 };
 
