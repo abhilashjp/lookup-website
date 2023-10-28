@@ -6,18 +6,10 @@ import Image from 'components/image';
 
 import banner from 'assets/images/apps.png';
 import checkFilledCircle from 'assets/images/icons/check-circle-filled.png';
-import Modal, { CloseButton } from "components/modal/modal"
-import ResponsiveIframe from "components/responsive-iframe"
-import HubspotForm from "react-hubspot-form"
 
  
 
 const Widgets = () => {
-const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const openModal = () => {
-    setIsModalOpen(true);
-  };
   
   return (
     <Box as="section" id="widgets" variant="section.widgets">
@@ -42,27 +34,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
             </Text>
             <Box sx={styles.explore}>
               <LearnMore path="#!" label="Request an app integration"  />
-               <Button
-              variant="primary"
-              sx={styles.button}
-              onClick={() => setIsOpen(true)}
-            >
-              Get started
-            </Button>
-            <Modal isOpen={isOpen} style={styles.modalform}>
-              <CloseButton
-                onClick={() => setIsOpen(false)}
-                size="24px"
-                color="#fff"
-              />
-              <HubspotForm
-                portalId="22529954"
-                formId="a16f7dad-52b2-4450-8d85-fac6da7562e0"
-                onSubmit={() => console.log("Submit!")}
-                onReady={() => console.log("Form ready!")}
-                loading={<div>Loading...</div>}
-              />
-            </Modal>
+             
             </Box>
           </Box>
         </Box>
