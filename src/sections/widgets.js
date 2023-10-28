@@ -75,17 +75,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
 export default Widgets;
 
-{isModalOpen && (
-      <Modal isOpen={isModalOpen} styles={styles.modalform} setIsOpen={setIsModalOpen}>
-        <HubspotForm
-                portalId="22529954"
-                formId="a16f7dad-52b2-4450-8d85-fac6da7562e0"
-                onSubmit={() => console.log("Submit!")}
-                onReady={() => console.log("Form ready!")}
-                loading={<div>Loading...</div>}
-              />
-      </Modal>
-    )}
+
 const styles = {
   contentWrapper: {
     gap: [0, 0, 0, 0, 10, 100],
