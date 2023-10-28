@@ -47,6 +47,13 @@ const [isModalOpen, setIsModalOpen] = useState(false);
         </Box>
       </Container>
     </Box>
+
+
+  );
+};
+
+export default Widgets;
+
 {isModalOpen && (
       <Modal isOpen={isModalOpen} styles={styles.modalform} setIsOpen={setIsModalOpen}>
         <HubspotForm
@@ -58,12 +65,6 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               />
       </Modal>
     )}
-
-  );
-};
-
-export default Widgets;
-
 const styles = {
   contentWrapper: {
     gap: [0, 0, 0, 0, 10, 100],
