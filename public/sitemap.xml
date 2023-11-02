@@ -229,6 +229,11 @@ https://lookuptax.com/docs/blog/vat-number-check-api
 <priority>0.5</priority>
 </url>
 <url>
+<loc>https://lookuptax.com/docs/tags/ocr-number</loc>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
 <loc>https://lookuptax.com/docs/tags/peppol</loc>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
@@ -419,6 +424,13 @@ https://lookuptax.com/docs/country/canada-gst-hst-guidelines-sales-tax-indirect-
 </url>
 <url>
 <loc>
+https://lookuptax.com/docs/country/france-vat-guidelines-taxe-sur-la-valeur-ajout%C3%A9e-TVA
+</loc>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>
 https://lookuptax.com/docs/country/india-gst-guidelines-indirect-tax-sales-tax-india
 </loc>
 <changefreq>weekly</changefreq>
@@ -459,7 +471,7 @@ https://lookuptax.com/docs/einvoicing/country-wise-requirements-for-peppol
 </url>
 <url>
 <loc>
-https://lookuptax.com/docs/einvoicing/eSPap-einvoicing-portugal
+https://lookuptax.com/docs/einvoicing/espap-einvoicing-portugal
 </loc>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
@@ -480,7 +492,7 @@ https://lookuptax.com/docs/einvoicing/finvoice-einvoicing-finland
 </url>
 <url>
 <loc>
-https://lookuptax.com/docs/einvoicing/IRP-India-regulations-status-and-updates
+https://lookuptax.com/docs/einvoicing/irp-india-einvoicing-regulations-status-and-updates
 </loc>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
@@ -513,7 +525,7 @@ https://lookuptax.com/docs/einvoicing/peppol-einvoicing-norway
 </url>
 <url>
 <loc>
-https://lookuptax.com/docs/einvoicing/SDI-Einvoicing-Sistema-di-Interscambio-italy
+https://lookuptax.com/docs/einvoicing/sdi-einvoicing-sistema-di-interscambio-italy
 </loc>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
@@ -535,6 +547,13 @@ https://lookuptax.com/docs/einvoicing/Zatca-fatoora-Saudi-Arabia-einvoicing-zaka
 <url>
 <loc>
 https://lookuptax.com/docs/explainers/KID-number-Norway-kundeidentifikasjon
+</loc>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>
+https://lookuptax.com/docs/explainers/OCR-number-Sweden
 </loc>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
