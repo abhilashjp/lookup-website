@@ -20,6 +20,17 @@ Furthermore, companies listed in the Trade Register, VAT Register, Prepayment Re
 The Business ID, a vital identifier for legal entities like companies, remains constant as long as the entity is operational. However, changes in company types defined by law may alter the Business ID. Private traders' Business IDs are personal, changing when operations transfer between private traders or when a company continues a private trader's business. New businesses receive their ID upon registering the start-up notification in the Business Information System (BIS), jointly managed by the PRH and the Tax Administration.
 
 
+## Henkilötunnus (HETU)
+
+The HETU, also known as the Social Security number, is assigned at birth or immigration by the Population Register Centre of Finland. It comprises 11 characters for individuals, including 6 digits, 1 character (+, -, or A), 3 digits, and 1 alphanumeric character. The 7th character denotes the century of birth, with + indicating birth between 1800-1899, - for 1900-1999, and A for 2000-. This character is crucial, mandatorily recorded and reported in all records. Gain insights into HETU details, its format, and significance in records for precise information retrieval.
+
+<table align="center" border="0px" border-color="#dedede"><tr><td>
+  <img src="/docs/img/taxid/finland-id.PNG" alt="Identity card (Henkilökortti)"/>
+  </td></tr>
+  <tr><td align="center">Identity card (Henkilökortti)</td></tr>
+</table>
+
+
 ----
 **How [Lookuptax](https://lookuptax.com/) can help you ?**
 
