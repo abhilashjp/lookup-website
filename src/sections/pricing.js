@@ -12,9 +12,11 @@ import * as React from 'react';
 function PricingPage() {
   // Paste the stripe-pricing-table snippet in your React component
   return (
-    <stripe-pricing-table pricing-table-id="prctbl_1OaxIqLgg5yZQ6xmdF95R2IB"
-publishable-key="pk_live_qYHv1NJ4uGWVRpika3yyYl4N">
-</stripe-pricing-table>
+     <Box id="pricing-section" as="section" variant="section.pricing">
+     {    <stripe-pricing-table pricing-table-id="prctbl_1OaxIqLgg5yZQ6xmdF95R2IB"
+publishable-key="pk_live_qYHv1NJ4uGWVRpika3yyYl4N"> </stripe-pricing-table>
+ }
+    </Box> 
   );
 }
 

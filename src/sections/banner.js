@@ -9,6 +9,56 @@ import Modal, { CloseButton } from "components/modal/modal"
 import ResponsiveIframe from "components/responsive-iframe"
 import HubspotForm from "react-hubspot-form"
 
+
+const Banner = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const scrollToPricing = () => {
+    const pricingSection = document.getElementById("pricing-section");
+
+    if (pricingSection) {
+      pricingSection.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  };
+
+  return (
+    <Box id="home" as="section" variant="section.banner">
+
+    <Container>
+        <Box sx={styles.contentWrapper}>
+          <Box sx={styles.content}>
+            <Heading sx={styles.title}><h1 sx={styles.title}>Tax ID validation for everyone.</h1></Heading>
+            <Text as="p" sx={styles.text}>
+              VAT number, ABN, GSTIN. Validate these and more using our free,
+              secure and refreshingly easy to use APIs.
+            </Text>
+
+<Button
+        variant="primary"
+        sx={styles.button}
+        onClick={() => {
+          setIsOpen(true);
+          scrollToPricing(); // Scroll to pricing section when button is clicked
+        }}
+      >
+        Get started
+      </Button>
+      </Box>
+          <Box sx={styles.illustration}>
+            <Image src={banner} alt="banner" />
+          </Box>
+        </Box>
+      </Container>
+</Box>
+  );
+};
+
+export default Banner;
+
+/*
+
 const Banner = () => {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -55,6 +105,8 @@ const Banner = () => {
 }
 
 export default Banner
+
+*/
 
 const styles = {
   contentWrapper: {
