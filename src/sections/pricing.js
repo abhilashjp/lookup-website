@@ -8,7 +8,7 @@ import { rgba } from 'polished';
 import * as React from 'react';
 
 import { animateScroll as scroll } from 'react-scroll';
-import { rgba } from 'polished';
+
 
 function PricingPage() {
   useEffect(() => {
