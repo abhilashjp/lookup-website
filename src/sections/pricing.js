@@ -6,7 +6,7 @@ import SectionHeading from 'components/section-heading';
 import PriceTable from 'components/cards/price-table';
 import { rgba } from 'polished';
 import * as React from 'react';
-import React, { useEffect } from 'react';
+
 import { animateScroll as scroll } from 'react-scroll';
 import { rgba } from 'polished';
 
