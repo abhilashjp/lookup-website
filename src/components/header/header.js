@@ -39,8 +39,10 @@ export default function Header() {
           <Container>
           {/* Start of HubSpot Embed Code */
             <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/22529954.js"></script>
-            /* End of HubSpot Embed Code */}
-            <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+            /* End of HubSpot Embed Code */ }
+            {
+              <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+            }
             <Box sx={styles.headerInner}>
               <Logo isWhite={mobileMenu} />
 
