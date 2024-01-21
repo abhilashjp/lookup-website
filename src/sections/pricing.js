@@ -5,7 +5,22 @@ import { jsx, Box, Grid, Container, Flex, Text, Button } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import PriceTable from 'components/cards/price-table';
 import { rgba } from 'polished';
+import * as React from 'react';
 
+
+
+function PricingPage() {
+  // Paste the stripe-pricing-table snippet in your React component
+  return (
+    <stripe-pricing-table pricing-table-id="prctbl_1OaxIqLgg5yZQ6xmdF95R2IB"
+publishable-key="pk_live_qYHv1NJ4uGWVRpika3yyYl4N">
+</stripe-pricing-table>
+  );
+}
+
+export default PricingPage;
+
+/*
 const monthly = [
   {
     id: 1,
@@ -305,3 +320,5 @@ const styles = {
     },
   },
 };
+
+*/
