@@ -6,17 +6,36 @@ import SectionHeading from 'components/section-heading';
 import PriceTable from 'components/cards/price-table';
 import { rgba } from 'polished';
 import * as React from 'react';
-
-
+import React, { useEffect } from 'react';
+import { animateScroll as scroll } from 'react-scroll';
+import { rgba } from 'polished';
 
 function PricingPage() {
-  // Paste the stripe-pricing-table snippet in your React component
+  useEffect(() => {
+    // Scroll to the pricing section when the component mounts
+    scroll.scrollTo('pricingSection', {
+      smooth: true,
+      duration: 500,
+    });
+  }, []); // Empty dependency array ensures the effect runs only once after the initial render
+
   return (
-    <stripe-pricing-table pricing-table-id="prctbl_1OaxIqLgg5yZQ6xmdF95R2IB"
-publishable-key="pk_live_qYHv1NJ4uGWVRpika3yyYl4N">
-</stripe-pricing-table>
+    <div id="pricingSection" sx={styles.pricingSection}>
+      {/* Your pricing page content */}
+      {/* Paste the stripe-pricing-table snippet in your React component */}
+      <stripe-pricing-table
+        pricing-table-id="prctbl_1OaxIqLgg5yZQ6xmdF95R2IB"
+        publishable-key="pk_live_qYHv1NJ4uGWVRpika3yyYl4N"
+      ></stripe-pricing-table>
+    </div>
   );
 }
+
+const styles = {
+  pricingSection: {
+    // Add any styling specific to your pricing section
+  },
+};
 
 export default PricingPage;
 
