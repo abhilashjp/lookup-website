@@ -166,7 +166,7 @@ const annual = [
     ],
   },
 ];
-*/
+
 
 const Pricing = () => {
   const [plan, setPlan] = useState({
