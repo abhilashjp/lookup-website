@@ -15,7 +15,9 @@ export default function Header() {
     setMobileMenu(true)
   }
   const filteredMenuItems = menuItems.filter(item => item.label !== 'Pricing');
-  const scrollToPricing = () => {
+  
+const scrollToPricing = () => {
+  setTimeout(() => {
     const pricingSection = document.getElementById("pricing-section");
 
     if (pricingSection) {
@@ -25,8 +27,9 @@ export default function Header() {
         inline: "nearest",
       });
     }
-  };
-
+  }, 100); // Adjust the delay as needed
+};
+  
   const closeMobileMenu = evt => {
     const label = evt.target.innerHTML
     if (label === "Guides") {
