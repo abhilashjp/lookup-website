@@ -14,6 +14,17 @@ export default function Header() {
   const openMobileMenu = () => {
     setMobileMenu(true)
   }
+  const scrollToPricing = () => {
+    const pricingSection = document.getElementById("pricing-section");
+
+    if (pricingSection) {
+      pricingSection.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+        inline: "nearest",
+      });
+    }
+  };
 
   const closeMobileMenu = evt => {
     const label = evt.target.innerHTML
