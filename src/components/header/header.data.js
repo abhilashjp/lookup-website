@@ -8,8 +8,8 @@ export default [
     label: "Feature",
   },
   {
-    path: "pricing",
-    label: "#pricing-section",
+    path: "#pricing-section",
+    label: "Pricing",
   },
   {
     path: "faq",
