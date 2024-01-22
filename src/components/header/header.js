@@ -14,6 +14,7 @@ export default function Header() {
   const openMobileMenu = () => {
     setMobileMenu(true)
   }
+  const filteredMenuItems = menuItems.filter(item => item.label !== 'Pricing');
   const scrollToPricing = () => {
     const pricingSection = document.getElementById("pricing-section");
 
