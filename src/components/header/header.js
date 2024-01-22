@@ -17,19 +17,21 @@ export default function Header() {
   const filteredMenuItems = menuItems.filter(item => item.label !== 'Pricing');
   
 const scrollToPricing = () => {
-  setTimeout(() => {
-    const pricingSection = document.getElementById("pricing-section");
+  const pricingSectionById = document.getElementById("pricing-section");
+  const pricingSectionByQuery = document.querySelector("#pricing-section");
 
-    if (pricingSection) {
-      pricingSection.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-        inline: "nearest",
-      });
-    }
-  }, 100); // Adjust the delay as needed
+  const pricingSection = pricingSectionById || pricingSectionByQuery;
+
+  if (pricingSection) {
+    pricingSection.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
+  } else {
+    console.error("Pricing section not found");
+  }
 };
-  
   const closeMobileMenu = evt => {
     const label = evt.target.innerHTML
     if (label === "Guides") {
