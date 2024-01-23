@@ -16,7 +16,7 @@ export default [
     label: "Faq",
   },
   {
-    path: "/docs/category/country-guides",
+    path: "/category/tax-identification-number",
     label: "Guides",
   },
   {
