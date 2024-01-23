@@ -19,7 +19,7 @@ export default function Header() {
     const label = evt.target.innerHTML
     if (label === "Guides") {
       // redirect to /docs
-      Router.push("/category/tax-identification-number/")
+      Router.push("/docs/category/tax-identification-number/")
     }
     else if (label === "Pricing") {
       // redirect to /docs
