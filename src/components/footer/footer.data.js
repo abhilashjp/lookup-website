@@ -25,22 +25,23 @@ export const menuItems = [
       },
     ],
   },
-/**   {
+  {
     id: 2,
     title: 'About Us',
     items: [
       {
-       path: '#!',
+       path: 'mailto:support@lookuptax.com',
         label: 'Support Center',
       },
       {
-        path: '#!',
+        path: '/docs/blog',
         label: 'Blog',
       },
       {
-        path: '#!',
+        path: '/docs/blog/about-lookuptax-open-source-tax',
         label: 'About Us',
       },
+      /**
       {
         path: '#!',
         label: 'Copyright',
