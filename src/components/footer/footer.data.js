@@ -41,19 +41,19 @@ export const menuItems = [
         path: '/docs/blog/about-lookuptax-open-source-tax',
         label: 'About Us',
       },
-      /**
+      
       {
-        path: '#!',
-        label: 'Copyright',
+        path: '#pricing-section',
+        label: 'Signup',
       },
       {
-        path: '#!',
-        label: 'Popular Campaign',
+        path: '#pricing-section',
+        label: 'Pricing',
       },
     ],
   },
 
-  */
+  
   {
     id: 3,
     title: 'Our Information',
