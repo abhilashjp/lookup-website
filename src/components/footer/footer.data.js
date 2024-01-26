@@ -30,7 +30,7 @@ export const menuItems = [
     title: 'About Us',
     items: [
       {
-        email: 'support@lookuptax.com',
+        email: 'mailto:support@lookuptax.com',
         label: 'Support Center',
       },
       {
