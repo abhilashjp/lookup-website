@@ -8,11 +8,11 @@ export const menuItems = [
         label: 'About Lookuptax',
       },
       {
-        path: '/docs/category/explainers',
+        path: '/docs/category/country-tax-guides',
         label: 'Documentation',
       },
       {
-        path: '/docs/category/country-guides',
+        path: '/docs/category/tax-identification-number',
         label: 'Guides',
       },
       {
