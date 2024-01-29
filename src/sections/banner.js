@@ -43,7 +43,7 @@ const Banner = () => {
           scrollToPricing(); // Scroll to pricing section when button is clicked
         }}
       >
-        Get started
+        Get started for Free
       </Button>
       </Box>
           <Box sx={styles.illustration}>
