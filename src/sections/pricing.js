@@ -13,7 +13,7 @@ function PricingPage() {
   // Paste the stripe-pricing-table snippet in your React component
   return (
      <Box id="pricing-section" as="section" variant="section.pricing">
-     {    <stripe-pricing-table pricing-table-id="prctbl_1OaxIqLgg5yZQ6xmdF95R2IB"
+     {    <stripe-pricing-table pricing-table-id="prctbl_1Ok7VjLgg5yZQ6xm4cS9UpyL"
 publishable-key="pk_live_qYHv1NJ4uGWVRpika3yyYl4N"> </stripe-pricing-table>
  }
     </Box> 
