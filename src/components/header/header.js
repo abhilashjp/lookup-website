@@ -46,6 +46,9 @@ export default function Header() {
             /* End of HubSpot Embed Code */ }
             {
               <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+        }
+
+        {
         /* Google Tag Manager */
               <script>
   (function(w,d,s,l,i){
