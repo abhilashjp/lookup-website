@@ -50,7 +50,8 @@ export default function Header() {
 
         {
         /* Google Tag Manager */
-             <script>
+             <!-- Google Tag Manager -->
+<script>
   (function(w,d,s,l,i){
     w[l]=w[l]||[];
     w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
@@ -61,6 +62,8 @@ export default function Header() {
     f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-KLGV623');
 </script>
+
+
 /* Google Tag Manager */
             }
 
