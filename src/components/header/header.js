@@ -48,15 +48,7 @@ export default function Header() {
               <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
         }
 
-        {
-        /* Google Tag Manager */
-             <script>
-
-</script>
-
-
-/* Google Tag Manager */
-            }
+       
 
             <Box sx={styles.headerInner}>
               <Logo isWhite={mobileMenu} />
