@@ -20,7 +20,7 @@ import * as React from 'react';
 ////  );
 //}
 
-export default PricingPage;
+//export default PricingPage;
 
 
 
