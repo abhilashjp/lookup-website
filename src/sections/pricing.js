@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { useState } from 'react';
+/*import { useState } from 'react';
 import { keyframes } from '@emotion/core';
 import { jsx, Box, Grid, Container, Flex, Text, Button } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
