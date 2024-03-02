@@ -1,12 +1,12 @@
 /** @jsx jsx */
-/*import { useState } from 'react';
+import { useState } from 'react';
 import { keyframes } from '@emotion/core';
 import { jsx, Box, Grid, Container, Flex, Text, Button } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import PriceTable from 'components/cards/price-table';
 import { rgba } from 'polished';
 import * as React from 'react';
-
+import HubspotForm from "react-hubspot-form"
 
 
 //function PricingPage() {
@@ -327,7 +327,7 @@ const styles = {
 };
 
 */
-import React, { useState } from 'react';
+/*import React, { useState } from 'react';
 import {
   Box,
   Container,
@@ -338,8 +338,10 @@ import {
 } from 'theme-ui';
 import SectionHeading from './SectionHeading';
 import PriceTable from './PriceTable';
-import { HubspotForm } from 'react-hubspot';
 
+
+import { HubspotForm } from 'react-hubspot';
+*/
 const monthly = [
   {
     id: 1,
