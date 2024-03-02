@@ -9,18 +9,18 @@ import * as React from 'react';
 import HubspotForm from "react-hubspot-form"
 
 
-//function PricingPage() {
+function PricingPage() {
   // Paste the stripe-pricing-table snippet in your React component
-//  return (
-//     <Box id="pricing-section" as="section" variant="section.pricing">
-    // {<stripe-pricing-table pricing-table-id="prctbl_1Opo3cSJk6FHqNZLwRpi4OVg"
-//publishable-key="pk_live_51OpYBPSJk6FHqNZLngAvjtWRQKJyzZAKhtOLrI7B5HnXbpYHuHNd3ATe2YNpfMgNehlTuaSqtozVYM8YLaI4qHRI00ahUVnjvh"></stripe-pricing-table>
-// }
-  //  </Box> 
-////  );
-//}
+ return (
+   <Box id="pricing-section" as="section" variant="section.pricing">
+     {<stripe-pricing-table pricing-table-id="prctbl_1Opo3cSJk6FHqNZLwRpi4OVg"
+publishable-key="pk_live_51OpYBPSJk6FHqNZLngAvjtWRQKJyzZAKhtOLrI7B5HnXbpYHuHNd3ATe2YNpfMgNehlTuaSqtozVYM8YLaI4qHRI00ahUVnjvh"></stripe-pricing-table>
+ }
+    </Box> 
+  );
+}
 
-//export default PricingPage;
+export default PricingPage;
 
 
 /*
@@ -342,160 +342,3 @@ import PriceTable from './PriceTable';
 
 import { HubspotForm } from 'react-hubspot';
 */
-const monthly = [
-  {
-    id: 1,
-    title: 'Free',
-    subtitle: 'For getting started',
-    amount: 0,
-    isRecommended: false,
-    buttonText: 'Create an account',
-    features: [
-      {
-        id: 1,
-        isAvailable: true,
-        title: 'Full access to all features',
-      },
-      {
-        id: 2,
-        isAvailable: true,
-        title: 'One API to validate Tax ID in various countries',
-      },
-      {
-        id: 3,
-        isAvailable: true,
-        title: 'Bulk Tax ID validation',
-      },
-      {
-        id: 4,
-        isAvailable: true,
-        title: '100 API requests',
-      },
-      {
-        id: 5,
-        isAvailable: false,
-        title: 'Premium Support',
-      },
-    ],
-  },
-  
-  {
-    id: 2,
-    title: 'Pro',
-    subtitle: 'For fast growth teams',
-    amount: 49,
-    isRecommended: true,
-    buttonText: 'Create an account',
-    features: [
-      {
-        id: 1,
-        isAvailable: true,
-        title: 'Full access to all features',
-      },
-      {
-        id: 2,
-        isAvailable: true,
-        title: 'One API to validate Tax ID in various countries',
-      },
-      {
-        id: 3,
-        isAvailable: true,
-        title: 'Bulk Tax ID validation',
-      },
-      {
-        id: 4,
-        isAvailable: true,
-        title: '10000 API requests',
-      },
-      {
-        id: 5,
-        isAvailable: true,
-        title: 'Premium Support',
-      },
-    ],
-  },
-];
-
-const Pricing = () => {
-  const [plan, setPlan] = useState({
-    active: 'monthly',
-    pricingPlan: monthly,
-  });
-
-  const [showModal, setShowModal] = useState(false);
-
-  const handlePlan = (plan) => {
-    if (plan === 'monthly') {
-      setPlan({
-        ...plan,
-        active: 'monthly',
-        pricingPlan: monthly,
-      });
-    }
-    // Add handling for annual plan here if needed
-  };
-
-  const handleOpenModal = () => {
-    setShowModal(true);
-  };
-
-  const handleCloseModal = () => {
-    setShowModal(false);
-  };
-
-  return (
-    <Box
-      as="section"
-      id="pricing"
-      sx={styles.section}
-      variant="section.pricing"
-    >
-      <Container>
-        <SectionHeading
-          sx={styles.heading}
-          title="Choose a plan that is right for you"
-          description="With plans for both startups and large enterprises, everyone can use Lookup"
-        />
-        <Flex sx={styles.priceSwitcher}>
-          <Text as="span" className="discount">
-            Open Source
-          </Text>
-          <Button
-            variant="text"
-            onClick={() => handlePlan('monthly')}
-            className={`${plan.active === 'monthly' ? 'active' : ''}`}
-          >
-            Lookup Cloud
-          </Button>
-          {/* Add button for annual plan if needed */}
-        </Flex>
-        <Grid sx={styles.priceWrapper}>
-          {plan.pricingPlan.map((price, index) => (
-            <PriceTable price={price} key={`${plan.active}-${index}`} />
-          ))}
-        </Grid>
-        <Button variant="primary" onClick={handleOpenModal}>
-          Get Started
-        </Button>
-        {showModal && (
-          <Box sx={styles.modalOverlay}>
-            <Box sx={styles.modal}>
-              <Button onClick={handleCloseModal} sx={styles.closeButton}>
-                Close
-              </Button>
-              <HubspotForm
-                portalId="22529954"
-                formId="a16f7dad-52b2-4450-8d85-fac6da7562e0"
-                onSubmit={() => console.log("Submit!")}
-                onReady={() => console.log("Form ready!")}
-                loading={<div>Loading...</div>}
-              />
-            </Box>
-          </Box>
-        )}
-      </Container>
-    </Box>
-  );
-};
-
-export default Pricing;
