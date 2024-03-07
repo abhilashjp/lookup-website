@@ -221,7 +221,7 @@ const Pricing = () => {
 
       <Modal isOpen={showModal} onClose={handleModalClose}>
         <iframe
-          src={`https://forms.hubspot.com/embed/v3/form/22529954/a16f7dad-52b2-4450-8d85-fac6da7562e0?hasCachedForm=false`}
+          src={`https://share.hsforms.com/1oW99rVKyRFCNhfrG2nVi4Adew82`}
           width="100%"
           height="100%"
           frameBorder="0"
