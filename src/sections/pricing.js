@@ -8,7 +8,7 @@ import { rgba } from 'polished';
 import * as React from 'react';
 import HubspotForm from "react-hubspot-form"
 
-
+/*
 function PricingPage() {
   // Paste the stripe-pricing-table snippet in your React component
  return (
@@ -21,9 +21,9 @@ publishable-key="pk_live_51OpYBPSJk6FHqNZLngAvjtWRQKJyzZAKhtOLrI7B5HnXbpYHuHNd3A
 }
 
 export default PricingPage;
+*/
 
 
-/*
 const monthly = [
   {
     id: 1,
@@ -97,7 +97,7 @@ const monthly = [
     ],
   },
 ];
-/* const annual = [
+ const annual = [
   {
     id: 1,
     title: 'Free Community Edition',
@@ -169,8 +169,7 @@ const monthly = [
     ],
   },
 ];
-*/
-/*
+
 const Pricing = () => {
   const [plan, setPlan] = useState({
     active: 'monthly',
