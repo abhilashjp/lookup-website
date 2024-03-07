@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import { keyframes } from '@emotion/core';
 import { jsx, Box, Grid, Container, Flex, Text, Button } from 'theme-ui';
-import { Modal } from '@theme-ui/components'; // Import Modal from @theme-ui/components
+import Modal, { CloseButton } from 'components/modal/modal'; // Import your custom modal component
 import SectionHeading from 'components/section-heading';
 import PriceTable from 'components/cards/price-table';
 import { rgba } from 'polished';
+
 
 const monthly = [
   {
@@ -218,21 +219,15 @@ const Pricing = () => {
         </Grid>
       </Container>
 
-      <Modal
-        sx={styles.modal}
-        onClick={handleModalClose}
-        isOpen={showModal}
-        onClose={handleModalClose}
-      >
-        <Box sx={styles.modalBody}>
-          <iframe
-            src={`https://forms.hubspot.com/embed/v3/form/${YOUR_HUBSPOT_PORTAL_ID}/${YOUR_HUBSPOT_FORM_ID}?hasCachedForm=false`}
-            width="100%"
-            height="100%"
-            frameBorder="0"
-            title="HubSpot Form"
-          />
-        </Box>
+      <Modal isOpen={showModal} onClose={handleModalClose}>
+        <iframe
+          src={`https://forms.hubspot.com/embed/v3/form/${YOUR_HUBSPOT_PORTAL_ID}/${YOUR_HUBSPOT_FORM_ID}?hasCachedForm=false`}
+          width="100%"
+          height="100%"
+          frameBorder="0"
+          title="HubSpot Form"
+        />
+        <CloseButton onClick={handleModalClose} />
       </Modal>
     </Box>
   );
