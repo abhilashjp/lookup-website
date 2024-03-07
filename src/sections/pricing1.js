@@ -5,7 +5,24 @@ import { jsx, Box, Grid, Container, Flex, Text, Button } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import PriceTable from 'components/cards/price-table';
 import { rgba } from 'polished';
-import HubspotForm from 'react-hubspot-form';
+import * as React from 'react';
+import HubspotForm from "react-hubspot-form"
+
+/*
+function PricingPage() {
+  // Paste the stripe-pricing-table snippet in your React component
+ return (
+   <Box id="pricing-section" as="section" variant="section.pricing">
+     {<stripe-pricing-table pricing-table-id="prctbl_1Opo3cSJk6FHqNZLwRpi4OVg"
+publishable-key="pk_live_51OpYBPSJk6FHqNZLngAvjtWRQKJyzZAKhtOLrI7B5HnXbpYHuHNd3ATe2YNpfMgNehlTuaSqtozVYM8YLaI4qHRI00ahUVnjvh"></stripe-pricing-table>
+ }
+    </Box> 
+  );
+}
+
+export default PricingPage;
+*/
+
 
 const monthly = [
   {
@@ -158,7 +175,6 @@ const Pricing = () => {
     active: 'monthly',
     pricingPlan: monthly,
   });
-  const [showHubspotForm, setShowHubspotForm] = useState(false);
 
   const handlePlan = (plan) => {
     if (plan === 'monthly') {
@@ -176,9 +192,13 @@ const Pricing = () => {
       });
     }
   };
-
   return (
-    <Box as="section" id="pricing" sx={styles.section} variant="section.pricing">
+    <Box
+      as="section"
+      id="pricing"
+      sx={styles.section}
+      variant="section.pricing"
+    >
       <Container>
         <SectionHeading
           sx={styles.heading}
@@ -206,23 +226,10 @@ const Pricing = () => {
         </Flex>
         <Grid sx={styles.priceWrapper}>
           {plan.pricingPlan.map((price, index) => (
-            <PriceTable
-              price={price}
-              key={`${plan.active}-${index}`}
-              setShowHubspotForm={setShowHubspotForm}
-            />
+            <PriceTable price={price} key={`${plan.active}-${index}`} />
           ))}
         </Grid>
       </Container>
-
-      {showHubspotForm && (
-        <HubspotForm
-          region="na1"
-          portalId="22529954"
-          formId="a16f7dad-52b2-4450-8d85-fac6da7562e0"
-          loading={<div>Loading...</div>}
-        />
-      )}
     </Box>
   );
 };
@@ -247,6 +254,7 @@ const fadeIn2 = keyframes`
     opacity: 1;
   }
 `;
+
 const styles = {
   heading: {
     mb: [60, null, null, 50],
@@ -316,3 +324,20 @@ const styles = {
     },
   },
 };
+
+
+/*import React, { useState } from 'react';
+import {
+  Box,
+  Container,
+  Flex,
+  Grid,
+  Text,
+  Button,
+} from 'theme-ui';
+import SectionHeading from './SectionHeading';
+import PriceTable from './PriceTable';
+
+
+import { HubspotForm } from 'react-hubspot';
+*/
