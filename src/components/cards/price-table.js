@@ -2,7 +2,7 @@ import { jsx, Box, Button, Heading, Text } from 'theme-ui';
 import { IoMdCheckmarkCircle } from 'react-icons/io';
 import { IoIosCloseCircle } from 'react-icons/io';
 
-const PriceTable = ({ price, isMonthly, setShowHubspotForm }) => {
+const PriceTable = ({ price, setShowModal }) => {
   return (
     <Box
       sx={styles.priceTable}
@@ -48,7 +48,7 @@ const PriceTable = ({ price, isMonthly, setShowHubspotForm }) => {
         ))}
       </Box>
       <Box sx={{ textAlign: 'center' }} className="priceButton">
-        <Button sx={styles.button} variant="primaryMd" onClick={() => price.buttonText === 'Contact Us' ? setShowHubspotForm(true) : null}>
+        <Button sx={styles.button} variant="primaryMd" onClick={() => price.buttonText === 'Contact Us' ? setShowModal(true) : null}>
           {price.buttonText}
         </Button>
       </Box>

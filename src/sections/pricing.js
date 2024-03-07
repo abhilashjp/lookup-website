@@ -1,11 +1,9 @@
-/** @jsx jsx */
 import { useState } from 'react';
 import { keyframes } from '@emotion/core';
-import { jsx, Box, Grid, Container, Flex, Text, Button } from 'theme-ui';
+import { jsx, Box, Grid, Container, Flex, Text, Button, Modal } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import PriceTable from 'components/cards/price-table';
 import { rgba } from 'polished';
-import HubspotForm from 'react-hubspot-form';
 
 const monthly = [
   {
@@ -158,7 +156,7 @@ const Pricing = () => {
     active: 'monthly',
     pricingPlan: monthly,
   });
-  const [showHubspotForm, setShowHubspotForm] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
   const handlePlan = (plan) => {
     if (plan === 'monthly') {
@@ -175,6 +173,10 @@ const Pricing = () => {
         pricingPlan: annual,
       });
     }
+  };
+
+  const handleModalClose = () => {
+    setShowModal(false);
   };
 
   return (
@@ -209,20 +211,28 @@ const Pricing = () => {
             <PriceTable
               price={price}
               key={`${plan.active}-${index}`}
-              setShowHubspotForm={setShowHubspotForm}
+              setShowModal={setShowModal}
             />
           ))}
         </Grid>
       </Container>
 
-      {showHubspotForm && (
-        <HubspotForm
-          region="na1"
-          portalId="22529954"
-          formId="a16f7dad-52b2-4450-8d85-fac6da7562e0"
-          loading={<div>Loading...</div>}
-        />
-      )}
+      <Modal
+        sx={styles.modal}
+        onClick={handleModalClose}
+        isOpen={showModal}
+        onClose={handleModalClose}
+      >
+        <Box sx={styles.modalBody}>
+          <iframe
+            src={`https://forms.hubspot.com/embed/v3/form/${YOUR_HUBSPOT_PORTAL_ID}/${YOUR_HUBSPOT_FORM_ID}?hasCachedForm=false`}
+            width="100%"
+            height="100%"
+            frameBorder="0"
+            title="HubSpot Form"
+          />
+        </Box>
+      </Modal>
     </Box>
   );
 };
@@ -314,5 +324,25 @@ const styles = {
         animation: `${fadeIn2} 0.7s linear`,
       },
     },
+  },
+modal: {
+    backgroundColor: 'rgba(0, 0, 0, 0.8)',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    zIndex: 9999,
+  },
+  modalBody: {
+    backgroundColor: 'white',
+    padding: '20px',
+    borderRadius: '8px',
+    maxWidth: '800px',
+    maxHeight: '80vh',
+    overflow: 'auto',
   },
 };
