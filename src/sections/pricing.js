@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { keyframes } from '@emotion/core';
-import { jsx, Box, Grid, Container, Flex, Text, Button, Modal } from 'theme-ui';
+import { jsx, Box, Grid, Container, Flex, Text, Button } from 'theme-ui';
+import { Modal } from '@theme-ui/components'; // Import Modal from @theme-ui/components
 import SectionHeading from 'components/section-heading';
 import PriceTable from 'components/cards/price-table';
 import { rgba } from 'polished';
