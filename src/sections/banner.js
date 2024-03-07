@@ -9,7 +9,7 @@ import Modal, { CloseButton } from "components/modal/modal"
 import ResponsiveIframe from "components/responsive-iframe"
 import HubspotForm from "react-hubspot-form"
 
-
+/* 
 const Banner = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -59,7 +59,7 @@ const Banner = () => {
 
 export default Banner;
 
-/*
+*/
 
 const Banner = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -108,7 +108,7 @@ const Banner = () => {
 
 export default Banner
 
-*/
+
 
 const styles = {
   contentWrapper: {
