@@ -219,22 +219,18 @@ const Pricing = () => {
         </Grid>
       </Container>
 
-<Modal isOpen={isOpen} style={styles.modalform}>
-              <CloseButton
-                onClick={() => setIsOpen(false)}
-                size="24px"
-                color="#fff"
-              />
-              <HubspotForm
-                portalId="22529954"
-                formId="a16f7dad-52b2-4450-8d85-fac6da7562e0"
-                onSubmit={() => console.log("Submit!")}
-                onReady={() => console.log("Form ready!")}
-                loading={<div>Loading...</div>}
-              />
-            </Modal>
 
-  
+
+      <Modal isOpen={showModal} onClose={handleModalClose}>
+        <iframe
+          src={`https://share.hsforms.com/1oW99rVKyRFCNhfrG2nVi4Adew82`}
+          width="100%"
+          
+          frameBorder="0"
+          title="HubSpot Form"
+        />
+        <CloseButton onClick={handleModalClose} />
+      </Modal>
     </Box>
   );
 };
