@@ -6,6 +6,7 @@ import SectionHeading from 'components/section-heading';
 import PriceTable from 'components/cards/price-table';
 import { rgba } from 'polished';
 
+
 const monthly = [
   {
     id: 1,
@@ -42,6 +43,7 @@ const monthly = [
       },
     ],
   },
+  
   {
     id: 2,
     title: 'Pro',
@@ -78,7 +80,7 @@ const monthly = [
     ],
   },
 ];
-const annual = [
+ const annual = [
   {
     id: 1,
     title: 'Free Community Edition',
@@ -179,10 +181,6 @@ const Pricing = () => {
     setShowModal(false);
   };
 
-  const handleAccountModal = () => {
-    setShowModal(true);
-  };
-
   return (
     <Box as="section" id="pricing" sx={styles.section} variant="section.pricing">
       <Container>
@@ -216,16 +214,18 @@ const Pricing = () => {
               price={price}
               key={`${plan.active}-${index}`}
               setShowModal={setShowModal}
-              handleAccountModal={handleAccountModal}
             />
           ))}
         </Grid>
       </Container>
 
+
+
       <Modal isOpen={showModal} onClose={handleModalClose}>
         <iframe
           src={`https://share.hsforms.com/1oW99rVKyRFCNhfrG2nVi4Adew82`}
           width="100%"
+          
           frameBorder="0"
           title="HubSpot Form"
         />
@@ -323,7 +323,7 @@ const styles = {
       },
     },
   },
-  modal: {
+modal: {
     backgroundColor: 'rgba(0, 0, 0, 0.8)',
     display: 'flex',
     alignItems: 'center',
