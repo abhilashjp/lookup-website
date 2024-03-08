@@ -219,20 +219,19 @@ const Pricing = () => {
         </Grid>
       </Container>
 
+
+
       <Modal isOpen={showModal} onClose={handleModalClose}>
-  <Box sx={styles.modalBody}>
-    <iframe
-      src={`https://share.hsforms.com/1oW99rVKyRFCNhfrG2nVi4Adew82`}
-      width="100%"
-      frameBorder="0"
-      title="HubSpot Form"
-      style={{ border: 'none' }}
-    />
-    <CloseButton onClick={handleModalClose} />
-  </Box>
-</Modal>
-</Box>
-     
+        <iframe
+          src={`https://share.hsforms.com/1oW99rVKyRFCNhfrG2nVi4Adew82`}
+          width="100%"
+          //height="100%"
+          frameBorder="0"
+          title="HubSpot Form"
+        />
+        <CloseButton onClick={handleModalClose} />
+      </Modal>
+    </Box>
   );
 };
 
@@ -341,10 +340,10 @@ modal: {
     padding: '20px',
     borderRadius: '8px',
     maxWidth: '800px',
-    width: '100%', // Add width: 100% to make the modalBody take full width
-    height: 'auto', // Set height to auto to allow the iframe to auto-size vertically
+    width: '100%',
+    maxHeight: 'calc(100vh - 40px)', // Set the maximum height to viewport height minus padding
     display: 'flex',
     flexDirection: 'column',
-    overflow: 'hidden', // Add overflow: hidden to hide any overflowing content
+    overflow: 'auto', // Add overflow: auto to enable scrolling if content exceeds modal height
   },
 };
