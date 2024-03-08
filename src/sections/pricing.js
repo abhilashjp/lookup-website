@@ -220,16 +220,19 @@ const Pricing = () => {
       </Container>
 
       <Modal isOpen={showModal} onClose={handleModalClose}>
-        <iframe
-          src={`https://share.hsforms.com/1oW99rVKyRFCNhfrG2nVi4Adew82`}
-          width="100%"
-          height="100%"
-          frameBorder="0"
-          title="HubSpot Form"
-        />
-        <CloseButton onClick={handleModalClose} />
-      </Modal>
-    </Box>
+  <Box sx={styles.modalBody}>
+    <iframe
+      src={`https://share.hsforms.com/1oW99rVKyRFCNhfrG2nVi4Adew82`}
+      width="100%"
+      frameBorder="0"
+      title="HubSpot Form"
+      style={{ border: 'none' }}
+    />
+    <CloseButton onClick={handleModalClose} />
+  </Box>
+</Modal>
+
+     
   );
 };
 
@@ -338,7 +341,10 @@ modal: {
     padding: '20px',
     borderRadius: '8px',
     maxWidth: '800px',
-    maxHeight: '80vh',
-    overflow: 'auto',
+    width: '100%', // Add width: 100% to make the modalBody take full width
+    height: 'auto', // Set height to auto to allow the iframe to auto-size vertically
+    display: 'flex',
+    flexDirection: 'column',
+    overflow: 'hidden', // Add overflow: hidden to hide any overflowing content
   },
 };
