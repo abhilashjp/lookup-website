@@ -231,7 +231,7 @@ const Pricing = () => {
     <CloseButton onClick={handleModalClose} />
   </Box>
 </Modal>
-
+</Box>
      
   );
 };
