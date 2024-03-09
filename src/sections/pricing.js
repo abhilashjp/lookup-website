@@ -158,7 +158,6 @@ const Pricing = () => {
     active: 'monthly',
     pricingPlan: monthly,
   });
-  const [showModal, setShowModal] = useState(false);
 
   const handlePlan = (plan) => {
     if (plan === 'monthly') {
@@ -175,10 +174,6 @@ const Pricing = () => {
         pricingPlan: annual,
       });
     }
-  };
-
-  const handleModalClose = () => {
-    setShowModal(false);
   };
 
   return (
@@ -213,24 +208,10 @@ const Pricing = () => {
             <PriceTable
               price={price}
               key={`${plan.active}-${index}`}
-              setShowModal={setShowModal}
             />
           ))}
         </Grid>
       </Container>
-
-
-
-      <Modal isOpen={showModal} onClose={handleModalClose}>
-        <iframe
-          src={`https://share.hsforms.com/1oW99rVKyRFCNhfrG2nVi4Adew82`}
-          width="100%"
-          
-          frameBorder="0"
-          title="HubSpot Form"
-        />
-        <CloseButton onClick={handleModalClose} />
-      </Modal>
     </Box>
   );
 };

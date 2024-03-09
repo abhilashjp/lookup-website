@@ -1,8 +1,13 @@
+import { useState } from "react"
 import { jsx, Box, Button, Heading, Text } from 'theme-ui';
 import { IoMdCheckmarkCircle } from 'react-icons/io';
 import { IoIosCloseCircle } from 'react-icons/io';
+import Modal, { CloseButton } from "components/modal/modal"
+import HubspotForm from "react-hubspot-form"
 
-const PriceTable = ({ price, setShowModal }) => {
+const PriceTable = ({ price }) => {
+
+  const [isOpen, setIsOpen] = useState(false)
   return (
     <Box
       sx={styles.priceTable}
@@ -48,9 +53,23 @@ const PriceTable = ({ price, setShowModal }) => {
         ))}
       </Box>
       <Box sx={{ textAlign: 'center' }} className="priceButton">
-        <Button sx={styles.button} variant="primaryMd" onClick={() => price.buttonText === 'Contact Us' ? setShowModal(true) : null}>
+        <Button sx={styles.button} variant="primaryMd" onClick={() => price.buttonText === 'Contact Us' ? setIsOpen(true) : null}>
           {price.buttonText}
         </Button>
+        <Modal isOpen={isOpen} style={styles.modalform}>
+              <CloseButton
+                onClick={() => setIsOpen(false)}
+                size="24px"
+                color="#fff"
+              />
+              <HubspotForm
+                portalId="22529954"
+                formId="a16f7dad-52b2-4450-8d85-fac6da7562e0"
+                onSubmit={() => console.log("Submit!")}
+                onReady={() => console.log("Form ready!")}
+                loading={<div>Loading...</div>}
+              />
+            </Modal>
       </Box>
     </Box>
   );
@@ -152,6 +171,24 @@ const styles = {
     ':hover': {
       backgroundColor: 'secondary',
       color: '#fff',
+    },
+  },
+  modalform: {
+    overlay: {
+      backgroundColor: "rgba(0,0,0,0.75)",
+      zIndex: 100,
+    },
+    content: {
+      border: 0,
+      padding: "15px",
+      top: "50%",
+      left: "50%",
+      right: "auto",
+      bottom: "auto",
+      overflow: "unset",
+      marginRight: "-50%",
+      transform: "translate(-50%, -50%)",
+      width: "70%",
     },
   },
 };
