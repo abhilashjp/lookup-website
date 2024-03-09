@@ -96,6 +96,12 @@ const Banner = () => {
                 loading={<div>Loading...</div>}
               />
             </Modal>
+            <Box sx={styles.clients}> 
+            /** <Image src={paypal} alt="paypal" /> */
+             <Image src={google} alt="google" />
+             <Image src={dropbox} alt="dropbox" />
+            </Box> 
+          </Box>
           </Box>
           <Box sx={styles.illustration}>
             <Image src={banner} alt="banner" />
