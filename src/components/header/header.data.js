@@ -4,6 +4,10 @@ export default [
     label: "Home",
   },
   {
+    path: "demo",
+    label: "Demo",
+  },
+  {
     path: "ultimate-feature",
     label: "Feature",
   },
