@@ -14,7 +14,7 @@ const monthly = [
     subtitle: 'For getting started',
     amount: 0,
     isRecommended: false,
-    buttonText: 'Create an account',
+    buttonText: 'Start free trial',
     features: [
       {
         id: 1,
@@ -50,7 +50,7 @@ const monthly = [
     subtitle: 'For fast growth teams',
     amount: 49,
     isRecommended: true,
-    buttonText: 'Create an account',
+    buttonText: 'Start free trial',
     features: [
       {
         id: 1,

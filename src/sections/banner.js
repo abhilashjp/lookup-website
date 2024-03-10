@@ -88,7 +88,7 @@ const Banner = () => {
               sx={styles.button}
               onClick={() => setIsOpen(true)}
             >
-              Get started
+              Get started Free
             </Button>
             <Modal isOpen={isOpen} style={styles.modalform}>
               <CloseButton
