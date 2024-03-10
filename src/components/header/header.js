@@ -27,7 +27,7 @@ export default function Header() {
     }
     else if (label === "Pricing") {
       // redirect to /docs
-      Router.push("/#pricing-section")
+      Router.push("/#pricing")
     }
      else if (label === "Explainers") {
       // redirect to /docs

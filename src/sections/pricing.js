@@ -46,8 +46,8 @@ const monthly = [
   
   {
     id: 2,
-    title: 'Pro',
-    subtitle: 'For fast growth teams',
+    title: 'Pro - Start Free',
+    subtitle: 'No Credit card needed',
     amount: 49,
     isRecommended: true,
     buttonText: 'Start free trial',
