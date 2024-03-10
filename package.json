@@ -14,7 +14,6 @@
     "@next/env": "^12.2.2",
     "framer-motion": "^2.7.5",
     "next": "11.1.4",
-    "next-compose-plugins": "^2.2.0",
     "next-optimized-images": "^2.6.2",
     "polished": "^3.6.7",
     "react": "17.0.2",
@@ -33,7 +32,8 @@
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^8.0.0",
-    "prettier": "^2.1.2",
-    "next-sitemap": "^1.9.12"
+    "next-compose-plugins": "^2.2.1",
+    "next-sitemap": "^1.9.12",
+    "prettier": "^2.1.2"
   }
 }
