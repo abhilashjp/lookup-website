@@ -1,4 +1,4 @@
-/** @jsx jsx */
+/** @jsxImportSource theme-ui */
 import { useState } from "react"
 import { jsx, Box, Container, Heading, Text, Button, Image } from "theme-ui"
 import banner from "assets/images/banner_2.png"

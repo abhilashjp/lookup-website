@@ -1,4 +1,4 @@
-/** @jsx jsx */
+/** @jsxImportSource theme-ui */
 import { jsx, Box } from 'theme-ui';
 
 const ResponsiveIframe = ({ src, children, ...props }) => {

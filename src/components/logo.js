@@ -1,4 +1,4 @@
-/** @jsx jsx */
+/** @jsxImportSource theme-ui */
 import { jsx, Image } from 'theme-ui';
 import { Link } from 'components/link';
 import logo from 'assets/images/Lookuptax-logo.png';

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { keyframes } from '@emotion/core';
+import { keyframes } from '@emotion/react';
 import { jsx, Box, Grid, Container, Flex, Text, Button } from 'theme-ui';
 import Modal, { CloseButton } from 'components/modal/modal'; // Import your custom modal component
 import SectionHeading from 'components/section-heading';

@@ -1,4 +1,4 @@
-/** @jsx jsx */
+/** @jsxImportSource theme-ui */
 import { jsx, Box, Text } from 'theme-ui';
 import { rgba } from 'polished';
 

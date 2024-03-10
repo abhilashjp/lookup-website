@@ -1,4 +1,4 @@
-/** @jsx jsx */
+/** @jsxImportSource theme-ui */
 import { jsx, Box, Container, MenuButton, Flex, Button } from "theme-ui"
 import Router from "next/router"
 import { useState } from "react"
@@ -49,7 +49,7 @@ export default function Header() {
             <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/22529954.js"></script>
             /* End of HubSpot Embed Code */ }
             {
-            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+            <script charSet="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
           }
             {
               <script async src="https://js.stripe.com/v3/pricing-table.js"></script>

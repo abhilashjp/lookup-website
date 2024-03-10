@@ -1,4 +1,4 @@
-/** @jsx jsx */
+/** @jsxImportSource theme-ui */
 import { jsx, Box, Image, Heading, Text } from 'theme-ui';
 
 const UltimateFeature = ({ data, ...props }) => {
