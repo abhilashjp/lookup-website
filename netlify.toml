@@ -8,3 +8,9 @@
   to = "https://lookup-guides.netlify.app/:splat"
   status = 200
   force = false
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[build.environment]
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
