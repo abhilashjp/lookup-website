@@ -2,6 +2,9 @@
 import { useState } from "react"
 import { jsx, Box, Container, Heading, Text, Button, Image } from "theme-ui"
 import banner from "assets/images/banner_2.png"
+import vies from "assets/images/vies.png"
+import hmrc from "assets/images/hmrc.png"
+import abn from "assets/images/abn-logo-gov.png"
 import paypal from "assets/images/paypal.png"
 import google from "assets/images/google.png"
 import dropbox from "assets/images/dropbox.png"
@@ -102,9 +105,9 @@ const Banner = () => {
               />
             </Modal>
              <Box sx={styles.clients}> 
-            <Image src={paypal} alt="paypal" /> 
-             <Image src={google} alt="google" />
-             <Image src={dropbox} alt="dropbox" />
+            <Image src={vies} alt="vies" />
+             <Image src={hmrc} alt="hmrc" />
+              <Image src={abn} alt="abn" />
             </Box> 
           </Box>
           <Box sx={styles.illustration}>
