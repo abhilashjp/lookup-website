@@ -87,7 +87,7 @@ const monthly = [
     subtitle: 'For Everyone',
     amount: 0,
     isRecommended: false,
-    buttonText: 'View on Github',
+    buttonText: 'Contact Us',
     features: [
       {
         id: 1,

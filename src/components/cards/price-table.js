@@ -53,7 +53,7 @@ const PriceTable = ({ price }) => {
         ))}
       </Box>
       <Box sx={{ textAlign: 'center' }} className="priceButton">
-        <Button sx={styles.button} variant="primaryMd" onClick={() => price.buttonText === 'Contact Us' ? setIsOpen(true) : null}>
+        <Button sx={styles.button} variant="primaryMd" onClick={() => setIsOpen(true)}>
           {price.buttonText}
         </Button>
         <Modal isOpen={isOpen} style={styles.modalform}>
