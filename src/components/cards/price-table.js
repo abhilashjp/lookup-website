@@ -56,7 +56,7 @@ const PriceTable = ({ price }) => {
         <Button sx={styles.button} variant="primaryMd" onClick={() => setIsOpen(true)}>
           {price.buttonText}
         </Button>
-        <Modal isOpen={isOpen} style={styles.modalform1}>
+        <Modal isOpen={isOpen} style={styles.modal}>
               <CloseButton
                 onClick={() => setIsOpen(false)}
                 size="24px"
@@ -173,22 +173,5 @@ const styles = {
       color: '#fff',
     },
   },
-modalform1: {
-    overlay: {
-     backgroundColor:'transparent',
-      zIndex: 100,
-    },
-    content: {
-      border: 0,
-      padding: "15px",
-      top: "50%",
-      left: "50%",
-      right: "auto",
-      bottom: "auto",
-      overflow: "unset",
-      marginRight: "-50%",
-      transform: "translate(-50%, -50%)",
-      width: "70%",
-    },
-  },
+
 };

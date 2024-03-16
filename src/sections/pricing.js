@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { keyframes } from '@emotion/react';
 import { jsx, Box, Grid, Container, Flex, Text, Button } from 'theme-ui';
-//import Modal1, { CloseButton } from 'components/modal/modal'; // Import your custom modal component
+import Modal, { CloseButton } from 'components/modal/modal'; // Import your custom modal component
 import SectionHeading from 'components/section-heading';
 import PriceTable from 'components/cards/price-table';
 import { rgba } from 'polished';
@@ -304,27 +304,5 @@ const styles = {
       },
     },
   },
-  modal1: {
-    backgroundColor: 'transparent',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    position: 'fixed',
-    top: 0,
-    left: 0,
-    right: 0,
-    bottom: 0,
-    zIndex: 9999,
-  },
-  modalBody1: {
-    backgroundColor: 'white',
-    padding: '20px',
-    borderRadius: '8px',
-    maxWidth: '800px',
-    width: '100%',
-    maxHeight: 'calc(100vh - 40px)', // Set the maximum height to viewport height minus padding
-    display: 'flex',
-    flexDirection: 'column',
-    overflow: 'auto', // Add overflow: auto to enable scrolling if content exceeds modal height
-  },
+  
 };
