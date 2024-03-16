@@ -2,7 +2,7 @@ import { useState } from "react"
 import { jsx, Box, Button, Heading, Text } from 'theme-ui';
 import { IoMdCheckmarkCircle } from 'react-icons/io';
 import { IoIosCloseCircle } from 'react-icons/io';
-//import Modal1, { CloseButton } from "components/modal/modal"
+import Modal, { CloseButton } from "components/modal/modal"
 import HubspotForm from "react-hubspot-form"
 
 const PriceTable = ({ price }) => {
