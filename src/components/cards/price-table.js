@@ -172,5 +172,5 @@ const styles = {
       backgroundColor: 'secondary',
       color: '#fff',
     },
-  },
+  };
   
