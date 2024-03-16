@@ -175,7 +175,7 @@ const styles = {
   },
 modalform: {
     overlay: {
-  
+     backgroundColor:'transparent',
       zIndex: 100,
     },
     content: {

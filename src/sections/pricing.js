@@ -305,7 +305,7 @@ const styles = {
     },
   },
   modal: {
-   
+    backgroundColor: 'transparent',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
