@@ -56,7 +56,7 @@ const PriceTable = ({ price }) => {
         <Button sx={styles.button} variant="primaryMd" onClick={() => setIsOpen(true)}>
           {price.buttonText}
         </Button>
-        <Modal1 isOpen={isOpen} style={styles.modalform1}>
+        <Modal isOpen={isOpen} style={styles.modalform1}>
               <CloseButton
                 onClick={() => setIsOpen(false)}
                 size="24px"
@@ -69,7 +69,7 @@ const PriceTable = ({ price }) => {
                 onReady={() => console.log("Form ready!")}
                 loading={<div>Loading...</div>}
               />
-            </Modal1>
+            </Modal>
       </Box>
     </Box>
   );
