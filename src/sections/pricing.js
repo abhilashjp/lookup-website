@@ -303,4 +303,4 @@ const styles = {
         animation: `${fadeIn2} 0.7s linear`,
       },
     },
-  },
+  }
