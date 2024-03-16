@@ -304,5 +304,27 @@ const styles = {
       },
     },
   },
-  
+  modal: {
+     backgroundColor: 'rgba(0, 0, 0, 0.8)',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    zIndex: 9999,
+  },
+  modalBody: {
+    backgroundColor: 'white',
+    padding: '20px',
+    borderRadius: '8px',
+    maxWidth: '800px',
+    width: '100%',
+    maxHeight: 'calc(100vh - 40px)', // Set the maximum height to viewport height minus padding
+    display: 'flex',
+    flexDirection: 'column',
+    overflow: 'auto', // Add overflow: auto to enable scrolling if content exceeds modal height
+  },
 };
