@@ -304,7 +304,7 @@ const styles = {
       },
     },
   },
-  modal: {
+  modal1: {
     backgroundColor: 'transparent',
     display: 'flex',
     alignItems: 'center',
@@ -316,7 +316,7 @@ const styles = {
     bottom: 0,
     zIndex: 9999,
   },
-  modalBody: {
+  modalBody1: {
     backgroundColor: 'white',
     padding: '20px',
     borderRadius: '8px',
