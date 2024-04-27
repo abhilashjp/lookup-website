@@ -17,11 +17,11 @@ export default function Header() {
   
   const closeMobileMenu = evt => {
     const label = evt.target.innerHTML
-    if (label === "Demo") {
-      // redirect to /docs
-      Router.push("http://demo.lookuptax.com/api/")
-    }
-   else  if (label === "Guides") {
+    // if (label === "Demo") {
+    //   // redirect to /docs
+    //   Router.push("http://demo.lookuptax.com/api/")
+    // }
+    if (label === "Guides") {
       // redirect to /docs
       Router.push("/docs/category/tax-identification-number/")
     }

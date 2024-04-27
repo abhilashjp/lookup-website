@@ -11,6 +11,7 @@ import UsefulFeatures from 'sections/useful-features';
 import Widgets from 'sections/widgets';
 import Pricing from 'sections/pricing';
 import Faq from 'sections/faq';
+import DemoForm from 'sections/demo-form';
 
 export default function IndexPage() {
   return (
@@ -18,6 +19,7 @@ export default function IndexPage() {
       <Layout>
         <SEO title="Easiest way to validate Tax IDs across the world. 100+ countries supported" />
         <Banner />
+        <DemoForm />
         <UltimateFeatures />
         <Features />
         <IntroVideo />

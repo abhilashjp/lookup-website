@@ -177,7 +177,7 @@ const Pricing = () => {
   };
 
   return (
-    <Box as="section" id="pricing" sx={styles.section} variant="section.pricing">
+    <Box as="section" id="pricing-section" sx={styles.section} variant="section.pricing">
       <Container>
         <SectionHeading
           sx={styles.heading}
