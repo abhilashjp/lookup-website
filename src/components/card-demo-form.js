@@ -10,9 +10,12 @@ import 'react-toastify/dist/ReactToastify.css';
 const countryList = [{"code":"AX","name":"Åland Islands"},{"code":"AL","name":"Albania"},{"code":"AD","name":"Andorra"},{"code":"AT","name":"Austria"},{"code":"BY","name":"Belarus"},{"code":"BE","name":"Belgium"},{"code":"BA","name":"Bosnia and Herzegovina"},{"code":"BG","name":"Bulgaria"},{"code":"HR","name":"Croatia"},{"code":"CZ","name":"Czechia"},{"code":"DK","name":"Denmark"},{"code":"EE","name":"Estonia"},{"code":"FO","name":"Faroe Islands"},{"code":"FI","name":"Finland"},{"code":"FR","name":"France"},{"code":"DE","name":"Germany"},{"code":"GI","name":"Gibraltar"},{"code":"GR","name":"Greece"},{"code":"GG","name":"Guernsey"},{"code":"VA","name":"Holy See"},{"code":"HU","name":"Hungary"},{"code":"IS","name":"Iceland"},{"code":"IE","name":"Ireland"},{"code":"IM","name":"Isle of Man"},{"code":"IT","name":"Italy"},{"code":"JE","name":"Jersey"},{"code":"LV","name":"Latvia"},{"code":"LI","name":"Liechtenstein"},{"code":"LT","name":"Lithuania"},{"code":"LU","name":"Luxembourg"},{"code":"MT","name":"Malta"},{"code":"MD","name":"Moldova, Republic of"},{"code":"MC","name":"Monaco"},{"code":"ME","name":"Montenegro"},{"code":"NL","name":"Netherlands"},{"code":"MK","name":"North Macedonia"},{"code":"NO","name":"Norway"},{"code":"PL","name":"Poland"},{"code":"PT","name":"Portugal"},{"code":"RO","name":"Romania"},{"code":"RU","name":"Russian Federation"},{"code":"SM","name":"San Marino"},{"code":"RS","name":"Serbia"},{"code":"SK","name":"Slovakia"},{"code":"SI","name":"Slovenia"},{"code":"ES","name":"Spain"},{"code":"SJ","name":"Svalbard and Jan Mayen"},{"code":"SE","name":"Sweden"},{"code":"CH","name":"Switzerland"},{"code":"UA","name":"Ukraine"}, {"code":"GB", "name":"United Kingdom"}];
 
 const countries = [
-  'GB', 'AT', 'BE', 'BG', 'CY', 'CZ', 'DE', 'DK', 'EE', 'EL',
-  'ES', 'FI', 'FR', 'HR', 'HU', 'IE', 'IT', 'LT', 'LU', 'LV',
-  'MT', 'NL', 'PL', 'PT', 'RO', 'SE', 'SI', 'SK', 'XI'
+ 'AL', 'AT', 'AU', 'BE', 'BG', 'BH', 'BY', 'CH', 'CL',
+ 'CO', 'CY', 'CZ', 'DE', 'DK', 'EE', 'EL', 'ES', 'FI',
+ 'FR', 'GB', 'HR', 'HU', 'ID', 'IE', 'IN', 'IT', 'KE',
+ 'LT', 'LU', 'LV', 'MT', 'MX', 'NL', 'NO', 'NZ', 'OM',
+ 'PL', 'PT', 'RO', 'RS', 'RU', 'SE', 'SG', 'SI', 'SK',
+ 'TR', 'TW', 'UK', 'VN', 'XI',
 ];
 
 const CardDemoForm = () => {
