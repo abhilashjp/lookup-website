@@ -46,7 +46,7 @@ const Banner = () => {
           scrollToPricing(); // Scroll to pricing section when button is clicked
         }}
       >
-        Get started for Free
+        Schedule a Demo
       </Button>
       <Box sx={styles.clients}> 
             <Image src={paypal} alt="paypal" /> 
