@@ -46,7 +46,7 @@ const Banner = () => {
           scrollToPricing(); // Scroll to pricing section when button is clicked
         }}
       >
-        Schedule a Demo
+        Get Started for Free
       </Button>
       <Box sx={styles.clients}> 
             <Image src={paypal} alt="paypal" /> 
@@ -88,7 +88,7 @@ const Banner = () => {
               sx={styles.button}
               onClick={() => setIsOpen(true)}
             >
-              Schedule a Demo 
+              Get Started for Free 
             </Button>
             <Modal isOpen={isOpen} style={styles.modalform}>
               <CloseButton
