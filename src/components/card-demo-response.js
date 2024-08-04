@@ -19,6 +19,10 @@ const CardDemoResponse = ({response}) => {
               <Text sx={styles.fieldvalue}> {response.name} </Text>
               <Text sx={styles.fieldlabel}> Address </Text>
               <Text sx={styles.fieldvalue}> {response.address} </Text>
+              <Text sx={styles.fieldlabel}> Enity Status </Text>
+              <Text sx={styles.fieldvalue}> {response.entityStatus} </Text>
+              <Text sx={styles.fieldlabel}> Enity Type </Text>
+              <Text sx={styles.fieldvalue}> {response.entityType} </Text>
               <Text sx={styles.fieldlabel}> Date </Text>
               <Text sx={styles.fieldvalue}> {response.requestDate} </Text>
             </Grid>
