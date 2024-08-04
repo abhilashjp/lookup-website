@@ -43,6 +43,8 @@ const CardDemoResponse = ({response}) => {
               <Text sx={styles.fieldvalue}> {response.tinLabel} </Text>
               <Text sx={styles.fieldlabel}> Tax ID Number </Text>
               <Text sx={styles.fieldvalue}> {response.tin} </Text>
+              <Text sx={styles.fieldlabel}> Tax ID Name </Text>
+              <Text sx={styles.fieldvalue}> {response.tinName} </Text>
               <Text sx={styles.fieldlabel}> Date </Text>
               <Text sx={styles.fieldvalue}> {response.requestDate} </Text>
             </Grid>
