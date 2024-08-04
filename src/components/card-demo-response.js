@@ -13,6 +13,8 @@ const CardDemoResponse = ({response}) => {
               <Text sx={styles.fieldvalue}> {response.valid.toString()} </Text>
               <Text sx={styles.fieldlabel}> Tax ID Label </Text>
               <Text sx={styles.fieldvalue}> {response.tinLabel} </Text>
+              <Text sx={styles.fieldlabel}> Tax ID Description </Text>
+              <Text sx={styles.fieldvalue}> {response.tinName} </Text>
               <Text sx={styles.fieldlabel}> Tax ID Number </Text>
               <Text sx={styles.fieldvalue}> {response.tin} </Text>
               <Text sx={styles.fieldlabel}> Name </Text>
