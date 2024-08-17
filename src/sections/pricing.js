@@ -48,7 +48,7 @@ const monthly = [
     id: 2,
     title: 'Pro - Start Free',
     subtitle: 'No Credit card needed',
-    amount: $49,
+    amount: 49,
     isRecommended: true,
     buttonText: 'Start free trial',
     features: [
@@ -120,7 +120,7 @@ const monthly = [
     id: 2,
     title: 'Premium Support',
     subtitle: 'For Enterprise',
-    amount: $150,
+    amount: 150,
     isRecommended: true,
     buttonText: 'Contact Us',
     features: [
